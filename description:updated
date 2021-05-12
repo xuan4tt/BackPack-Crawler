@@ -1,0 +1,1037 @@
+-- Logs begin at Thu 2021-03-04 01:30:53 +07, end at Wed 2021-05-05 17:30:38 +07. --
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2193]  1000  2193  1155781     4395   790528     4038             0 code
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2244]  1000  2244  1128605     4637   819200    31698             0 code
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2245]  1000  2245  1110010      712   421888     5891             0 code
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2258]  1000  2258   170596     1408  1347584   143647             0 php
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2332]  1000  2332   250102     1526   204800       40             0 ibus-engine-bam
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2355]  1000  2355   117091     2641   225280       16             0 update-notifier
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2477]  1000  2477   215615    35027  1273856     3241             0 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2483]  1000  2483     2773        0    57344       23             0 cat
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2484]  1000  2484     2773        6    57344       20             0 cat
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2487]  1000  2487    66696      317   417792     2277             0 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2488]  1000  2488    66696     1074   405504     1527             0 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2489]  1000  2489     2694      143    65536        0             0 nacl_helper
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2492]  1000  2492    66696     1074   249856     1527             0 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2514]  1000  2514   173331    18186  1155072     3168           200 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2516]  1000  2516    95565     8722   548864      696           200 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2542]  1000  2542    85495     2412   438272     1495           200 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2574]  1000  2574  1158995     3505   757760     1518           300 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2632]  1000  2632  1148749     2144   724992     2436           300 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2644]  1000  2644  1158224     4047   798720     1790           300 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   3228]  1000  3228    31381       93   221184     6874             0 php
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   3233]  1000  3233    59143     1061   229376     1577             0 php7.4
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   3253]  1000  3253     3471      153    53248      296             0 bash
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   3514]  1000  3514   227692     4810   311296     1147             0 gnome-terminal-
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   3844]  1000  3844   269242     2410   368640     5007             0 nautilus
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   3861]  1000  3861    79240        0   110592      296             0 gvfsd-network
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   3888]  1000  3888    79463       19   114688      257             0 gvfsd-dnssd
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   9332]    33  9332    57649        0   180224     1864             0 apache2
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   9377]    33  9377    57649        0   180224     1862             0 apache2
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  10238]  1000 10238   142285     2705   438272        4           200 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  16157]  1000 16157  1158992     4311   831488     1417           300 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  19750]  1000 19750     3534      510    61440        0             0 bash
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  19796]  1000 19796  1165822    10208   942080     1417           300 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  24588]  1000 24588  1162762     8389   905216     1415           300 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  24602]  1000 24602  1159957     6731   868352     1416           300 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  24657]  1000 24657  2217001     9283   995328     1402           300 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  24686]  1000 24686  1152386     2932   745472     1439           300 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  24733]  1000 24733  1152386     3325   737280     1438           300 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  24747]  1000 24747  1152386     3057   741376     1439           300 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  24748]  1000 24748  1153154     3687   757760     1437           300 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  24754]  1000 24754  1152386     2948   737280     1438           300 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  24772]  1000 24772  1152386     2926   741376     1438           300 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  24792]  1000 24792  1152386     2951   741376     1439           300 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  24805]  1000 24805  1152642     3383   749568     1438           300 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  24825]  1000 24825  1151874     2936   729088     1438           300 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  24842]  1000 24842  1151874     2908   729088     1438           300 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  25424]  1000 25424  1170637     9911   950272     1398           300 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  25640]  1000 25640  1164855    11857   942080     1417           300 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  25780]     0 25780     3696      175    65536        0             0 sudo
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  25781]     0 25781     3687       67    61440        0             0 systemctl
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  25785]     0 25785     4112      201    73728        0             0 systemd-tty-ask
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  25786]   128 25786   807634   460727  3960832      205             0 java
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/user@1000.service,task=chrome,pid=25640,uid=1000
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;31m[0;1;39m[0;1;31mOut of memory: Killed process 25640 (chrome) total-vm:4659420kB, anon-rss:46132kB, file-rss:0kB, shmem-rss:1296kB, UID:1000 pgtables:920kB oom_score_adj:300[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: oom_reaper: reaped process 25640 (chrome), now anon-rss:0kB, file-rss:0kB, shmem-rss:1104kB
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mChrome_ChildIOT invoked oom-killer: gfp_mask=0x100cca(GFP_HIGHUSER_MOVABLE), order=0, oom_score_adj=200[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mCPU: 4 PID: 2545 Comm: Chrome_ChildIOT Not tainted 5.8.0-50-generic #56~20.04.1-Ubuntu[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mHardware name: ASUSTeK COMPUTER INC. VivoBook S15 X510UF/X510UF, BIOS X510UF.301 03/09/2018[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mCall Trace:[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m dump_stack+0x74/0x92[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m dump_header+0x4f/0x1eb[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m oom_kill_process.cold+0xb/0x10[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m out_of_memory.part.0+0x1df/0x430[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m out_of_memory+0x6d/0xd0[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m __alloc_pages_slowpath.constprop.0+0xd02/0xe20[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m ? get_page_from_freelist+0x68/0x370[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m __alloc_pages_nodemask+0x2bc/0x2f0[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m alloc_pages_current+0x87/0xe0[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m __page_cache_alloc+0x72/0x90[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m pagecache_get_page+0xbf/0x300[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m filemap_fault+0x6ec/0xa70[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m ? unlock_page_memcg+0x20/0x30[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m ? page_add_file_rmap+0x14e/0x1c0[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m ? xas_load+0x9/0x80[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m ? xas_find+0x183/0x1b0[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m ? filemap_map_pages+0x1d5/0x3b0[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m ext4_filemap_fault+0x32/0x50[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m __do_fault+0x3c/0xe0[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m do_fault+0x256/0x520[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m __handle_mm_fault+0x547/0x930[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m handle_mm_fault+0xca/0x200[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m do_user_addr_fault+0x1e2/0x440[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m exc_page_fault+0x86/0x1b0[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m ? asm_exc_page_fault+0x8/0x30[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m asm_exc_page_fault+0x1e/0x30[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mRIP: 0033:0x56027c0a2600[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mCode: Unable to access opcode bytes at RIP 0x56027c0a25d6.[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mRSP: 002b:00007f580b260468 EFLAGS: 00010246[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mRAX: 00000b9bf9df4000 RBX: 0000560281213d24 RCX: 00007f580b2604e0[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mRDX: 0000000000001000 RSI: 00000b9bf9df4000 RDI: 0000000000000031[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mRBP: 00007f580b260530 R08: 0000000000000000 R09: 000000000000240c[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mR10: 00000000ffffffff R11: 0000000000000000 R12: 0000000000000000[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mR13: 00000b9bf9e1f300 R14: 0000000000000000 R15: 00000b9bf9cb8370[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mMem-Info:[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mactive_anon:594283 inactive_anon:246418 isolated_anon:0[0m
+                                                     [0;1;38;5;185m active_file:71 inactive_file:0 isolated_file:0[0m
+                                                     [0;1;38;5;185m unevictable:237 dirty:0 writeback:0[0m
+                                                     [0;1;38;5;185m slab_reclaimable:26835 slab_unreclaimable:48805[0m
+                                                     [0;1;38;5;185m mapped:3812 shmem:82771 pagetables:11982 bounce:0[0m
+                                                     [0;1;38;5;185m free:22226 free_pcp:0 free_cma:0[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mNode 0 active_anon:2377132kB inactive_anon:985672kB active_file:284kB inactive_file:0kB unevictable:948kB isolated(anon):0kB isolated(file):0kB mapped:15248kB dirty:0kB writeback:0kB shmem:331084kB shmem_thp: 0kB shmem_pmdmapped: 0kB anon_thp: 0kB writeback_tmp:0kB all_unreclaimable? no[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mNode 0 DMA free:15212kB min:276kB low:344kB high:412kB reserved_highatomic:0KB active_anon:76kB inactive_anon:0kB active_file:0kB inactive_file:0kB unevictable:0kB writepending:0kB present:15988kB managed:15892kB mlocked:0kB kernel_stack:0kB pagetables:0kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mlowmem_reserve[]: 0 2036 3740 3740 3740[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mNode 0 DMA32 free:43148kB min:36648kB low:45808kB high:54968kB reserved_highatomic:0KB active_anon:1276632kB inactive_anon:683584kB active_file:296kB inactive_file:384kB unevictable:80kB writepending:0kB present:2235700kB managed:2144556kB mlocked:16kB kernel_stack:7844kB pagetables:24700kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mlowmem_reserve[]: 0 0 1703 1703 1703[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mNode 0 Normal free:30544kB min:30656kB low:38320kB high:45984kB reserved_highatomic:0KB active_anon:1099692kB inactive_anon:301948kB active_file:1088kB inactive_file:48kB unevictable:868kB writepending:0kB present:1818624kB managed:1744532kB mlocked:80kB kernel_stack:10780kB pagetables:23228kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mlowmem_reserve[]: 0 0 0 0 0[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mNode 0 DMA: 3*4kB (UM) 4*8kB (U) 2*16kB (UM) 1*32kB (M) 2*64kB (U) 3*128kB (UM) 1*256kB (M) 2*512kB (UM) 1*1024kB (M) 0*2048kB 3*4096kB (ME) = 15212kB[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mNode 0 DMA32: 1878*4kB (UME) 1036*8kB (UME) 962*16kB (UME) 246*32kB (UME) 84*64kB (UME) 1*128kB (M) 0*256kB 0*512kB 0*1024kB 0*2048kB 0*4096kB = 44568kB[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mNode 0 Normal: 3218*4kB (UME) 1497*8kB (UME) 360*16kB (UME) 24*32kB (UME) 17*64kB (UM) 0*128kB 0*256kB 0*512kB 0*1024kB 0*2048kB 0*4096kB = 32464kB[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=1048576kB
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=2048kB
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m89810 total pagecache pages[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m6776 pages in swap cache[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mSwap cache stats: add 1285311, delete 1279103, find 133061/264388[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mFree swap  = 0kB[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mTotal swap = 2097148kB[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m1017578 pages RAM[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m0 pages HighMem/MovableOnly[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m41333 pages reserved[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m0 pages hwpoisoned[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: Tasks state (memory values in pages):
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  pid  ]   uid  tgid total_vm      rss pgtables_bytes swapents oom_score_adj name
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [    313]     0   313    19143      153   176128      276          -250 systemd-journal
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [    343]     0   343     5989        4    65536      854         -1000 systemd-udevd
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [    771]   101   771     6156      156    86016      993             0 systemd-resolve
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [    772]   102   772    22614        7    77824      231             0 systemd-timesyn
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [    801]     0   801    60351        0   102400      353             0 accounts-daemon
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [    802]     0   802      637        6    40960       37             0 acpid
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [    805]   115   805     2166       74    57344       58             0 avahi-daemon
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [    806]     0   806     2092        0    53248      112             0 bluetoothd
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [    807]     0   807     3071       13    57344       54             0 cron
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [    808]     0   808     7729        0    90112      333             0 cupsd
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [    809]   103   809     2463      372    61440      251          -900 dbus-daemon
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [    810]     0   810    84794      402   151552      553             0 NetworkManager
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [    819]     0   819    20477       32    61440       54             0 irqbalance
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [    821]     0   821    10546        1   110592     2075             0 networkd-dispat
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [    823]     0   823    60978      201   110592      673             0 polkitd
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [    825]   104   825    56089      241    90112      301             0 rsyslogd
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [    835]     0   835    59645        1    90112      180             0 switcheroo-cont
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [    840]     0   840     4234       58    69632      228             0 systemd-logind
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [    843]     0   843    32186       67    98304      152             0 thermald
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [    845]     0   845    98231       94   126976      652             0 udisksd
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [    846]     0   846     3518       10    65536      267             0 wpa_supplicant
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [    854]   115   854     2088        1    53248       82             0 avahi-daemon
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [    888]     7   888     3834        0    65536      205             0 dbus
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [    889]     0   889    45111       20   118784      392             0 cups-browsed
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [    891]     7   891     3834        0    69632      203             0 dbus
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [    892]     7   892     3834        0    73728      204             0 dbus
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [    894]     7   894     3834        0    65536      204             0 dbus
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [    895]     7   895     3834        0    69632      204             0 dbus
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [    896]     7   896     3834        0    73728      203             0 dbus
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [    898]     7   898     3834        0    73728      203             0 dbus
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [    899]     7   899     3834        0    69632      203             0 dbus
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [    900]     7   900     3834        0    65536      204             0 dbus
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [    901]     7   901     3834        0    65536      204             0 dbus
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [    906]     0   906    59112       28   196608     1559             0 php-fpm7.4
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [    908]   127   908    14437      111    90112      377             0 redis-server
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [    913]     0   913    60005        0    98304      427             0 ModemManager
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [    944]     0   944    60619        0   102400      424             0 gdm3
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1002]     0  1002    30180        0   126976     2057             0 unattended-upgr
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1003]     0  1003    79318       13   110592      428             0 gdm-session-wor
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1030]     0  1030    57519       14   192512     1826             0 apache2
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1034]  1000  1034     4832      264    73728      340             0 systemd
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1035]   126  1035   586257        0  1150976    90705             0 mysqld
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1041]  1000  1041    42282        1    98304      903             0 (sd-pam)
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1050]    33  1050    59208        0   180224     1594             0 php-fpm7.4
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1051]    33  1051    59208        0   180224     1594             0 php-fpm7.4
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1055]    33  1055    57728        7   180224     1904             0 apache2
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1056]    33  1056    57661        3   180224     1880             0 apache2
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1060]    33  1060    57653        3   180224     1855             0 apache2
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1061]    33  1061    57653        7   180224     1848             0 apache2
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1062]    33  1062    57661        3   180224     1858             0 apache2
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1072]  1000  1072   614957      573   208896      514             0 pulseaudio
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1074]  1000  1074   147081      397   192512     1804             0 tracker-miner-f
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1080]  1000  1080    97661      205   110592      163             0 gnome-keyring-d
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1095]  1000  1095    41721        0    81920      196             0 gdm-x-session
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1101]  1000  1101   293403     4344   565248     5966             0 Xorg
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1103]   111  1103    38235        0    65536       78             0 rtkit-daemon
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1109]  1000  1109     3191     1431    65536       70             0 dbus-daemon
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1118]  1000  1118    60644      140    90112      108             0 gvfsd
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1133]  1000  1133    94586       31   102400      156             0 gvfsd-fuse
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1140]  1000  1140    79200       63   106496      391             0 gvfs-udisks2-vo
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1173]  1000  1173    79897        0   110592      287             0 gvfs-afc-volume
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1180]  1000  1180    60243        4    90112      222             0 gvfs-gphoto2-vo
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1184]  1000  1184    59642       87    90112       96             0 gvfs-mtp-volume
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1188]  1000  1188    59840      141    86016      104             0 gvfs-goa-volume
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1192]  1000  1192   138096     3642   286720     2048             0 goa-daemon
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1233]  1000  1233    79405       16   106496      289             0 goa-identity-se
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1249]     0  1249    63807      153   110592      243             0 upowerd
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1297]  1000  1297    47821        1   122880      441             0 gnome-session-b
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1391]  1000  1391     1510        9    49152      106             0 ssh-agent
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1417]  1000  1417    76354        0    94208      196             0 at-spi-bus-laun
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1422]  1000  1422     1812       83    53248       57             0 dbus-daemon
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1432]  1000  1432    23232        0    73728      113             0 gnome-session-c
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1439]  1000  1439   140249      379   172032      293             0 gnome-session-b
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1453]  1000  1453  1190470    30705  1413120    17640             0 gnome-shell
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1474]  1000  1474    40709      106    81920      117             0 at-spi2-registr
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1533]   120  1533    63282        0   126976      494             0 whoopsie
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1535]   116  1535     2816       25    65536       95             0 kerneloops
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1540]   116  1540     2816       25    69632       94             0 kerneloops
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1553]  1000  1553    81326     5155   139264      119             0 ibus-daemon
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1557]  1000  1557    41391        0    81920      181             0 ibus-memconf
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1558]  1000  1558    69656      815   176128     2765             0 ibus-extension-
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1560]  1000  1560    50205      572   151552     1922             0 ibus-x11
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1565]  1000  1565    59842       93    90112      101             0 ibus-portal
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1574]  1000  1574    59615        0    86016      154             0 xdg-permission-
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1576]  1000  1576   198519      300   225280      600             0 gnome-shell-cal
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1587]  1000  1587   269177      489   274432     1519             0 evolution-sourc
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1593]  1000  1593    39091       95    73728      117             0 dconf-service
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1597]  1000  1597    41301      102    81920       88             0 gvfsd-metadata
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1609]  1000  1609   336189      587   344064     1732             0 evolution-calen
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1628]  1000  1628   169011      228   245760      801             0 evolution-addre
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1639]  1000  1639   733286     1030   270336      496             0 gjs
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1659]  1000  1659    79206      172   102400      185             0 gvfsd-trash
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1669]  1000  1669    78130       62    98304      104             0 gsd-a11y-settin
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1670]  1000  1670   145366      789   208896     1838             0 gsd-color
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1671]  1000  1671    94120       70   159744      433             0 gsd-datetime
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1673]  1000  1673    78647      105   102400      108             0 gsd-housekeepin
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1674]  1000  1674    87205     1174   176128     1391             0 gsd-keyboard
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1675]  1000  1675   226065      707   229376     2020             0 gsd-media-keys
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1676]  1000  1676   105792      555   184320     2067             0 gsd-power
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1678]  1000  1678    62771      124   122880      249             0 gsd-print-notif
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1680]  1000  1680    96558      113    98304       89             0 gsd-rfkill
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1683]  1000  1683    59593       68    81920       81             0 gsd-screensaver
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1685]  1000  1685   116909      214   131072      230             0 gsd-sharing
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1688]  1000  1688    79505       78   110592      168             0 gsd-smartcard
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1689]  1000  1689    80553      102   114688      195             0 gsd-sound
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1691]  1000  1691   115390      112   110592      109             0 gsd-usb-protect
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1692]  1000  1692    87075      504   172032     2040             0 gsd-wacom
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1694]  1000  1694    79211      102   114688      156             0 gsd-wwan
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1697]  1000  1697    87389      589   176128     2094             0 gsd-xsettings
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1719]  1000  1719    57950       20    86016      306             0 gsd-disk-utilit
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1721]  1000  1721   197289      659   352256     3472             0 evolution-alarm
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1760]  1000  1760  1847638     5146   892928     5067             0 skypeforlinux
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1788]  1000  1788    86263        8   151552      489             0 gsd-printer
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1795]   121  1795    62562        0   118784     1659             0 colord
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1852]  1000  1852    41390      114    77824      112             0 ibus-engine-sim
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1857]  1000  1857    51535       29   303104     1849             0 skypeforlinux
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1858]  1000  1858    51535        1   323584     1878             0 skypeforlinux
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1868]  1000  1868    51535        1   192512     1877             0 skypeforlinux
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1900]  1000  1900   278899      864   774144     7532           200 skypeforlinux
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1903]  1000  1903   216232      734   438272     1814             0 skypeforlinux
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1928]  1000  1928  2121501    16814  1425408     7297             0 skypeforlinux
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1966]  1000  1966   229058      246   413696     1821             0 skypeforlinux
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1995]  1000  1995  1182112     3537   708608     6945             0 code
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1998]  1000  1998    47293       56   311296     1655             0 code
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   1999]  1000  1999    47293        0   319488     1712             0 code
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2038]  1000  2038   127548     2150   868352     7015           200 code
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2054]  1000  2054    64966      545   368640     1801             0 code
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2067]  1000  2067  3818825    17568  1347584    13536             0 code
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2120]  1000  2120     3438        9    61440      419             0 bash
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2127]  1000  2127  1152157     7794   778240    13276             0 code
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2144]  1000  2144  1121717     1531   561152    17513             0 code
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2193]  1000  2193  1155781     4395   790528     4038             0 code
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2244]  1000  2244  1128605     4637   819200    31698             0 code
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2245]  1000  2245  1110010      712   421888     5891             0 code
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2258]  1000  2258   170596     1408  1347584   143647             0 php
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2332]  1000  2332   250102     1526   204800       40             0 ibus-engine-bam
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2355]  1000  2355   117091     2641   225280       16             0 update-notifier
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2477]  1000  2477   215615    35027  1273856     3241             0 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2483]  1000  2483     2773        0    57344       23             0 cat
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2484]  1000  2484     2773        6    57344       20             0 cat
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2487]  1000  2487    66696      317   417792     2277             0 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2488]  1000  2488    66696     1074   405504     1527             0 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2489]  1000  2489     2694      143    65536        0             0 nacl_helper
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2492]  1000  2492    66696     1074   249856     1527             0 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2514]  1000  2514   173331    18186  1155072     3168           200 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2516]  1000  2516    95565     8722   548864      696           200 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2542]  1000  2542    85495     2412   438272     1495           200 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2574]  1000  2574  1158995     3505   757760     1518           300 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2632]  1000  2632  1148749     2144   724992     2436           300 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   2644]  1000  2644  1158224     4047   798720     1790           300 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   3228]  1000  3228    31381       93   221184     6874             0 php
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   3233]  1000  3233    59143     1061   229376     1577             0 php7.4
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   3253]  1000  3253     3471      153    53248      296             0 bash
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   3514]  1000  3514   227692     4810   311296     1147             0 gnome-terminal-
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   3844]  1000  3844   269242     2410   368640     5007             0 nautilus
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   3861]  1000  3861    79240        0   110592      296             0 gvfsd-network
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   3888]  1000  3888    79463       19   114688      257             0 gvfsd-dnssd
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   9332]    33  9332    57649        0   180224     1864             0 apache2
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [   9377]    33  9377    57649        0   180224     1862             0 apache2
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  10238]  1000 10238   142285     2705   438272        4           200 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  16157]  1000 16157  1158992     4311   831488     1417           300 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  19750]  1000 19750     3534      510    61440        0             0 bash
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  19796]  1000 19796  1165822    10208   942080     1417           300 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  24588]  1000 24588  1162762     8389   905216     1415           300 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  24602]  1000 24602  1159957     6731   868352     1416           300 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  24657]  1000 24657  2217001     9283   995328     1402           300 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  24686]  1000 24686  1152386     2932   745472     1439           300 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  24733]  1000 24733  1152386     3325   737280     1438           300 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  24747]  1000 24747  1152386     3057   741376     1439           300 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  24748]  1000 24748  1153154     3687   757760     1437           300 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  24754]  1000 24754  1152386     2948   737280     1438           300 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  24772]  1000 24772  1152386     2926   741376     1438           300 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  24792]  1000 24792  1152386     2951   741376     1439           300 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  24805]  1000 24805  1152642     3383   749568     1438           300 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  24825]  1000 24825  1151874     2936   729088     1438           300 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  24842]  1000 24842  1151874     2908   729088     1438           300 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  25424]  1000 25424  1170637     9911   950272     1398           300 chrome
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  25780]     0 25780     3696      175    65536        0             0 sudo
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  25781]     0 25781     3687       67    61440        0             0 systemctl
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  25785]     0 25785     4112      201    73728        0             0 systemd-tty-ask
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [  25786]   128 25786   807634   471380  4042752      205             0 java
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/system.slice/elasticsearch.service,task=java,pid=25786,uid=128
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: [0;1;31m[0;1;39m[0;1;31mOut of memory: Killed process 25786 (java) total-vm:3230536kB, anon-rss:1885520kB, file-rss:0kB, shmem-rss:0kB, UID:128 pgtables:3948kB oom_score_adj:0[0m
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF kernel: oom_reaper: reaped process 25786 (java), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF /usr/lib/gdm3/gdm-x-session[1101]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m(II) event8  - Gtech wireless dongle Mouse: SYN_DROPPED event - some input events have been lost.[0m
+Thg 5 05 17:21:45 xuan4t-VivoBook-S15-X510UF systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185melasticsearch.service: Main process exited, code=killed, status=9/KILL[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStart= process belonging to unit elasticsearch.service has exited.
+-- 
+-- The process' exit code is 'killed' and its exit status is 9.
+Thg 5 05 17:21:46 xuan4t-VivoBook-S15-X510UF sudo[25780]: pam_unix(sudo:session): session closed for user root
+Thg 5 05 17:21:45 xuan4t-VivoBook-S15-X510UF systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185melasticsearch.service: Failed with result 'signal'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit elasticsearch.service has entered the 'failed' state with result 'signal'.
+Thg 5 05 17:21:45 xuan4t-VivoBook-S15-X510UF systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Elasticsearch.[0m
+-- Subject: A start job for unit elasticsearch.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit elasticsearch.service has finished with a failure.
+-- 
+-- The job identifier is 6886 and the job result is failed.
+Thg 5 05 17:21:51 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:21:51 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:21:51 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:21:51 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:21:51 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:21:51 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:21:51 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:21:51 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:21:51 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:22:01 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:22:01 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:22:01 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:22:01 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:22:01 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:22:01 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:22:01 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:22:01 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:22:01 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:22:01 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:22:01 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:22:02 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:22:02 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:22:02 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:22:02 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:22:02 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:22:02 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:22:02 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:22:02 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:22:02 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:22:04 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:22:05 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:22:05 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:22:05 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:22:05 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:22:05 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:22:05 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:22:05 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:22:05 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:22:05 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:22:05 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:22:05 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:22:11 xuan4t-VivoBook-S15-X510UF pkexec[26044]: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Thg 5 05 17:22:11 xuan4t-VivoBook-S15-X510UF pkexec[26044]: [0;1;39m[0;1;31m[0;1;39mxuan4t: Executing command [USER=root] [TTY=unknown] [CWD=/home/xuan4t] [COMMAND=/usr/lib/update-notifier/package-system-locked][0m
+Thg 5 05 17:22:12 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:22:12 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:22:12 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:22:12 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:22:12 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:22:12 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:22:12 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:22:12 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:22:12 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:22:26 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:22:26 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:22:26 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:22:26 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:22:26 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:22:26 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:22:26 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:22:26 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:22:26 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:22:26 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:22:26 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:22:26 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:22:26 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:22:26 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:22:26 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:22:29 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:22:29 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:22:29 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:22:29 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:22:29 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:22:29 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:22:29 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:22:29 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:22:29 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:22:32 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:22:32.589: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:22:32 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:22:32.598: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:22:32 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:22:32.978: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:22:33 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:22:33 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:22:33 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:22:33 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:22:33 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:22:33 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:22:33 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:22:33 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:22:33 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:22:33 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:22:33.106: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:22:33 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:22:33.229: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:22:33 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:22:33.265: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:22:37 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:22:37 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:22:37 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:22:37 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:22:37 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:22:37 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:22:37 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:22:37 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:22:37 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:22:43 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:22:43.685: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:22:43 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:22:43.696: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:22:50 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:22:50 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:22:50 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:22:50 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:22:50 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:22:50 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:22:50 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:22:50 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:22:50 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:22:51 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:22:51 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:22:54 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:22:54 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:22:54 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:22:54 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:22:54 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:22:54 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:22:54 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:22:54 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:22:54 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:22:57 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:00 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:00 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:00 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:23:00 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:23:00 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:23:00 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:23:00 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:23:00 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:23:00 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:23:00 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:23:00 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:23:00 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:01 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:01 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:01 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:01 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:01 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:01 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:01 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:01 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:01 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:01 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:01 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:01 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:03 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:23:03 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:23:03 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:23:03 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:23:03 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:23:03 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:23:03 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:23:03 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:23:03 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:23:04 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:05 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:05 xuan4t-VivoBook-S15-X510UF sudo[26083]: [0;1;39m[0;1;31m[0;1;39m  xuan4t : TTY=pts/3 ; PWD=/var/www/html/LaravelBackpack ; USER=root ; COMMAND=/usr/bin/systemctl status elasticsearch.service[0m
+Thg 5 05 17:23:05 xuan4t-VivoBook-S15-X510UF sudo[26083]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Thg 5 05 17:23:05 xuan4t-VivoBook-S15-X510UF sudo[26083]: pam_unix(sudo:session): session closed for user root
+Thg 5 05 17:23:05 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:23:05 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:23:05 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:23:05 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:23:05 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:23:05 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:23:05 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:23:05 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:23:05 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:23:05 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:07 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:08 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:08 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:08 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:09 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:09 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:10 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:14 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:23:14.448: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:23:14 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:23:14.452: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:23:14 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:23:14 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:23:14 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:23:14 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:23:14 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:23:14 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:23:14 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:23:14 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:23:14 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:23:15 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:23:15.531: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:23:16 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:23:16.259: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:23:18 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:23:18.267: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:23:18 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:23:18 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:23:18 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:23:18 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:23:18 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:23:18 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:23:18 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:23:18 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:23:18 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:23:18 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:23:18.427: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:23:18 xuan4t-VivoBook-S15-X510UF nautilus[3844]: [0;1;39m[0;1;31m[0;1;39mCalled "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)[0m
+Thg 5 05 17:23:18 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:23:18.564: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:23:18 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:23:18.644: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:23:18 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:23:18.722: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:23:18 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:23:18.864: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:23:18 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:18 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:20 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:20 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:20 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:20 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:20 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:20 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:20 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:20 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:20 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:20 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:21 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:21 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:21 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:21 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:21 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:21 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:21 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:21 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:21 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:21 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:21 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:21 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:21 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:21 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:21 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:21 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:21 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:21 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:21 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:21 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:21 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:21 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:21 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:21 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:21 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:21 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:21 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:21 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:21 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:21 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:21 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:21 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:21 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:22 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:22 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:22 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:22 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:22 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:22 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:22 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:22 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:22 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:22 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:22 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:22 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:22 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:22 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:22 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:24 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:23:24 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:23:24 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:23:24 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:23:24 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:23:24 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:23:24 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:23:24 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:23:24 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:23:25 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:26 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:26 xuan4t-VivoBook-S15-X510UF sudo[26104]: [0;1;39m[0;1;31m[0;1;39m  xuan4t : TTY=pts/3 ; PWD=/var/www/html/LaravelBackpack ; USER=root ; COMMAND=/usr/bin/journalctl -xe[0m
+Thg 5 05 17:23:26 xuan4t-VivoBook-S15-X510UF sudo[26104]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Thg 5 05 17:23:26 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:23:26 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:23:26 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:23:26 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:23:26 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:23:26 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:23:26 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:23:26 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:23:26 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:23:26 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:23:33 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:23:33 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:23:33 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:23:33 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:23:33 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:23:33 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:23:33 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:23:33 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:23:33 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:25:33 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:25:33.284: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:25:33 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:25:33.328: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:25:42 xuan4t-VivoBook-S15-X510UF systemd[1034]: Started Application launched by gnome-shell.
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 432.
+Thg 5 05 17:25:42 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:25:42.474: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:25:42 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:25:45 xuan4t-VivoBook-S15-X510UF audit[26190]: [0;34m[0;34mAVC apparmor="ALLOWED" operation="file_lock" profile="libreoffice-soffice" name="/var/spool/libreoffice/uno_packages/cache/stamp.sys" pid=26190 comm="soffice.bin" requested_mask="k" denied_mask="k" fsuid=1000 ouid=1000[0m
+Thg 5 05 17:25:45 xuan4t-VivoBook-S15-X510UF kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mkauditd_printk_skb: 16 callbacks suppressed[0m
+Thg 5 05 17:25:45 xuan4t-VivoBook-S15-X510UF kernel: [0;1;39m[0;1;31m[0;1;39maudit: type=1400 audit(1620210345.258:50): apparmor="ALLOWED" operation="file_lock" profile="libreoffice-soffice" name="/var/spool/libreoffice/uno_packages/cache/stamp.sys" pid=26190 comm="soffice.bin" requested_mask="k" denied_mask="k" fsuid=1000 ouid=1000[0m
+Thg 5 05 17:25:45 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mst_widget_get_theme_node called on the widget [0x562a5b09acc0 StWidget] which is not in the stage.[0m
+Thg 5 05 17:25:45 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mst_widget_get_theme_node called on the widget [0x562a57d2cb00 StWidget] which is not in the stage.[0m
+Thg 5 05 17:25:45 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mst_widget_get_theme_node called on the widget [0x562a5b5b81a0 StWidget] which is not in the stage.[0m
+Thg 5 05 17:25:45 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mst_widget_get_theme_node called on the widget [0x562a54b2a460 StWidget] which is not in the stage.[0m
+Thg 5 05 17:25:48 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:25:48 xuan4t-VivoBook-S15-X510UF systemd[1034]: gnome-launched-libreoffice-writer.desktop-26154.scope: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Thg 5 05 17:25:59 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:26:00 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:00.263: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:03 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:03.853: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:04 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:04.702: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:04 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:26:04 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:26:04 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:26:04 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:26:04 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:26:04 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:26:04 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:26:04 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:26:04 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:26:04 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:04.994: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:05 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:05.137: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:05 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:05.281: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:05 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:05.408: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:05 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:05.434: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:08 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:26:08 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:26:08 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:26:08 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:26:08 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:26:08 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:26:08 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:26:08 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:26:08 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:26:09 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:09.793: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:10 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:10.619: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:10 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:26:10 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:26:10 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:26:10 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:26:10 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:26:10 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:26:10 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:26:10 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:26:10 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:26:10 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:10.840: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:10 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:10.885: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:11 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:11.010: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:11 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:11.041: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:11 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:11.233: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:11 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:11.262: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:11 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:11.265: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:11 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:11.266: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:11 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:11.397: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:11 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:11.452: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:15 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:26:15 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:26:15 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:26:15 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:26:15 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:26:15 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:26:15 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:26:15 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:26:15 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:26:19 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: [2516:2520:0505/172619.709314:ERROR:ssl_client_socket_impl.cc(962)] handshake failed; returned -1, SSL error code 1, net_error -200
+Thg 5 05 17:26:19 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: [2516:2520:0505/172619.709543:ERROR:ssl_client_socket_impl.cc(962)] handshake failed; returned -1, SSL error code 1, net_error -200
+Thg 5 05 17:26:19 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: [2516:2520:0505/172619.972966:ERROR:ssl_client_socket_impl.cc(962)] handshake failed; returned -1, SSL error code 1, net_error -200
+Thg 5 05 17:26:54 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:54.358: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:55 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:55.864: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:55 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:55.877: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:55 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:55.945: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:55 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:26:55 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:26:55 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:26:55 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:26:55 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:26:55 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:26:55 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:26:55 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:26:55 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:26:56 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:56.682: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:56 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:56.686: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:56 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:56.837: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:56 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:56.840: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:56 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:56.841: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:56 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:56.900: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:57 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:57.229: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:57 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:57.233: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:57 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:57.367: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:57 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:57.371: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:57 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:57.398: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:57 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:57.547: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:58 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:58.087: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:58 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:58.091: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:58 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:58.219: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:58 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:58.313: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:58 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:58.318: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:58 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:58.461: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:58 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:58.519: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:58 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:58.523: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:58 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:58.704: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:59 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:59.048: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:59 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:59.052: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:26:59 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:26:59.228: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:27:00 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:27:00.167: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:27:00 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:27:00.171: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:27:00 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:27:00.336: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:27:00 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:27:00.706: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:27:00 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:27:00.710: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:27:00 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:27:00.880: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:27:00 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:27:00.935: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:27:00 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:27:00.939: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:27:01 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:27:01.073: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:27:01 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:27:01.285: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:27:01 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:27:01.390: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:27:01 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:27:01.437: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:27:01 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:27:01.442: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:27:01 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:27:01.607: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:27:01 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:27:01.838: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:27:01 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:27:01.955: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:27:02 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:27:02.027: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:27:02 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:27:02.133: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:27:02 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:27:02.220: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:27:02 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:27:02.352: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:27:02 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:27:02.506: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:27:02 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:27:02.510: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:27:02 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:27:02.644: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:27:02 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:27:02.660: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:27:02 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:27:02.663: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:27:02 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:27:02.851: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:27:02 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:27:02.923: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:27:02 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:27:02.927: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:27:03 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:27:03.082: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:27:03 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:27:03.334: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:27:03 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:27:03.338: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:27:03 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:27:03.486: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:27:03 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:27:03.525: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:27:03 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:27:03.529: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:27:03 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:27:03.689: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:27:04 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:27:04.039: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:27:04 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:27:04.149: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:27:04 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:27:04.241: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:27:08 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:27:08 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:27:08 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:27:08 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:27:08 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:27:08 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:27:08 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:27:08 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:27:08 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:27:40 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: [2516:2520:0505/172740.052589:ERROR:ssl_client_socket_impl.cc(962)] handshake failed; returned -1, SSL error code 1, net_error -200
+Thg 5 05 17:27:40 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: [2516:2520:0505/172740.053468:ERROR:ssl_client_socket_impl.cc(962)] handshake failed; returned -1, SSL error code 1, net_error -200
+Thg 5 05 17:27:40 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: [2516:2520:0505/172740.334236:ERROR:ssl_client_socket_impl.cc(962)] handshake failed; returned -1, SSL error code 1, net_error -200
+Thg 5 05 17:28:40 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:29:11 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:29:16 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:29:16.047: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:29:16 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:29:16.749: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:29:16 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:29:16 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:29:16 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:29:16 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:29:16 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:29:16 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:29:16 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:29:16 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:29:16 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:29:16 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:29:16.905: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:29:16 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:29:16.917: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:29:17 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:29:17.044: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:29:17 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:29:17.054: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:29:17 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:29:17.361: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:29:17 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:29:17.390: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:29:19 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:29:19 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:29:19 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:29:19 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:29:19 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:29:19 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:29:19 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:29:19 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:29:19 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:29:28 xuan4t-VivoBook-S15-X510UF kernel: perf: interrupt took too long (3955 > 3950), lowering kernel.perf_event_max_sample_rate to 50500
+Thg 5 05 17:29:48 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:29:48 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:29:48 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:29:48 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:29:48 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:29:48 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:29:48 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:29:48 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:29:48 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:29:48 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:29:48.225: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:29:48 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:29:48.385: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:29:48 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:29:48.406: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:29:49 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:29:49 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:29:49 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:29:49 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:29:49 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:29:49 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:29:49 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:29:49 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:29:49 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:29:50 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:29:50.678: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:29:50 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:29:50.694: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:29:50 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:29:50 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:29:50 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:29:50 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:29:50 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:29:50 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:29:50 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:29:50 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:29:50 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:29:50 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:29:50.801: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:29:50 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:29:50.893: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:29:50 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:29:50.896: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:29:50 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:29:50.984: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:29:51 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:29:51.043: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:29:51 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:29:51.046: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:29:51 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:29:51.154: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:29:51 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:29:51.237: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:29:51 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:29:51.239: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:29:51 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:29:51.343: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:29:51 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:29:51.406: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:29:51 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:29:51.411: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:29:51 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:29:51.527: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:29:51 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:29:51.629: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:29:51 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:29:51.633: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:29:51 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:29:51.762: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:29:51 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:29:51.834: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:29:51 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:29:51.838: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:29:51 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:29:51.961: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:29:52 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:29:52.042: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:29:52 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:29:52.046: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:29:52 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:29:52.173: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:29:54 xuan4t-VivoBook-S15-X510UF gnome-shell[2484]: (google-chrome-stable:2477): IBUS-WARNING **: 17:29:54.777: google-chrome-stable has no capability of surrounding-text feature
+Thg 5 05 17:29:54 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:29:54 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:29:54 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:29:54 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:29:54 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:29:54 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:29:54 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:29:54 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:29:54 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:29:55 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:29:55 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:29:55 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:29:55 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:29:55 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:29:55 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:29:55 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:29:55 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:29:55 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:29:55 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:29:55 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:29:56 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:29:56 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:29:56 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:29:56 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:29:56 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:29:56 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:29:56 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:29:56 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:29:56 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:29:59 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:29:59 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:29:59 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:29:59 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:29:59 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:29:59 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:29:59 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:29:59 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:29:59 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:29:59 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:29:59 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:29:59 xuan4t-VivoBook-S15-X510UF sudo[26104]: pam_unix(sudo:session): session closed for user root
+Thg 5 05 17:29:59 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:30:00 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:30:00 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:30:00 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:30:00 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:30:00 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:30:00 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:30:00 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:30:00 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:30:00 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:30:00 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:30:01 xuan4t-VivoBook-S15-X510UF CRON[26536]: pam_unix(cron:session): session opened for user root by (uid=0)
+Thg 5 05 17:30:01 xuan4t-VivoBook-S15-X510UF CRON[26537]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Thg 5 05 17:30:01 xuan4t-VivoBook-S15-X510UF CRON[26536]: pam_unix(cron:session): session closed for user root
+Thg 5 05 17:30:02 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:30:03 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:30:03 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:30:03 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:30:03 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:30:03 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:30:03 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:30:03 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:30:03 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:30:03 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:30:03 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:30:04 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:30:04 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:30:04 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:30:04 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:30:04 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:30:04 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:30:04 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:30:04 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:30:04 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:30:09 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:30:09 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:30:09 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:30:09 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:30:09 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:30:09 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:30:09 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:30:09 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:30:09 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:30:10 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:30:10 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:30:10 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:30:10 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:30:10 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:30:10 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:30:11 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:30:11 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:30:11 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:30:11 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:30:11 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:30:11 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:30:11 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:30:11 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:30:11 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:30:12 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:30:14 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:30:14 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:30:14 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:30:14 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:30:14 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:30:14 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:30:14 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:30:14 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:30:14 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:30:14 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:30:14 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:30:16 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:30:16 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:30:17 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:30:20 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:30:20 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:30:20 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:30:20 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:30:20 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:30:20 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:30:20 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:30:20 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:30:20 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:30:27 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Thg 5 05 17:30:27 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Thg 5 05 17:30:27 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Thg 5 05 17:30:27 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Thg 5 05 17:30:27 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Thg 5 05 17:30:27 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Thg 5 05 17:30:27 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Thg 5 05 17:30:27 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Thg 5 05 17:30:27 xuan4t-VivoBook-S15-X510UF gnome-shell[1453]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Thg 5 05 17:30:27 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:30:27 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:30:27 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:30:27 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:30:27 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:30:29 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:30:29 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:30:30 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:30:30 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:30:31 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:30:31 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:30:33 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:30:33 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:30:35 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:30:35 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:30:38 xuan4t-VivoBook-S15-X510UF gnome-terminal-[3514]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgnome-terminal-server has no capability of surrounding-text feature[0m
+Thg 5 05 17:30:38 xuan4t-VivoBook-S15-X510UF sudo[26574]: [0;1;39m[0;1;31m[0;1;39m  xuan4t : TTY=pts/3 ; PWD=/var/www/html/LaravelBackpack ; USER=root ; COMMAND=/usr/bin/journalctl -xe[0m
+Thg 5 05 17:30:38 xuan4t-VivoBook-S15-X510UF sudo[26574]: pam_unix(sudo:session): session opened for user root by (uid=0)
