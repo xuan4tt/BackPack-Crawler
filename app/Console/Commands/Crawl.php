@@ -5,12 +5,13 @@ namespace App\Console\Commands;
 use App\Models\Answer;
 use App\Models\Question;
 use App\Models\Url_exam_question;
-
+use App\Services\UrlExamService;
 use Spatie\Browsershot\Browsershot;
 use Goutte\Client;
 use Symfony\Component\DomCrawler\Crawler;
 
 use Illuminate\Console\Command;
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Redis;
 
@@ -34,12 +35,12 @@ class Crawl extends Command
      *
      * @return void
      */
-    //protected $UrlExamService;
+    protected $UrlExamService;
 
-    public function __construct()
+    public function __construct(UrlExamService $UrlExamService)
     {
         parent::__construct();
-        // $this->UrlExamService = $UrlExamService;
+        $this->UrlExamService = $UrlExamService;
     }
 
     /**
@@ -55,40 +56,26 @@ class Crawl extends Command
             $url_exam_question_id = $this->argument('url_id');
             $category_id = $this->argument('category_id');
             $class_id = $this->argument('class_id');
-            
-            $url_crawler = Browsershot::url($link)->bodyHtml();
-            $crawler = new Crawler($url_crawler);
-            if ($crawler->filter('div.qas > div.quiz-answer-item')->count() !== 0) {
-                //Crawl data
-                $crawler->filter('div.qas > div.quiz-answer-item')->each(
-                    function (Crawler $node) use (&$category_id, &$class_id, &$url_exam_question_id, &$link) {
-                        // Question
-                        $question_content = $node->filter('a.question')->html();
-                        $question_correct_answer = $node->filter('div.reason')->html();
-                        // Create data to table Question in DB
-                        $Question = new Question();
-                        $Question->class_id = $class_id;
-                        $Question->category_id = $category_id;
-                        $Question->url_exam_question_id = $url_exam_question_id;
-                        $Question->content = $question_content;
-                        $Question->correct_answer = $question_correct_answer;
-                        $Question->link = $link;
-                        $Question->save();
 
-                        // Answer
-                        $node->filter('div.answer-check > label')->each(function (Crawler $node2) {
-                            $question_id = Question::orderByDesc('id')->first()->id;
-                            $answer_content = $node2->filter('p')->html();
-                            // Create data to table Answer
-                            $Answer = new Answer();
-                            $Answer->question_id = $question_id;
-                            $Answer->content = $answer_content;
-                            $Answer->save();
-                        });
-                    }
-                );
-                //End crawl data
+            $url_exam_question = Url_exam_question::find($url_exam_question_id);
+            $url_exam_question->status = 1;
+            $url_exam_question->save();
+
+            $this->UrlExamService->CrawlData($class_id, $category_id, $url_exam_question_id, $link);
+            $link_array = $this->UrlExamService->GetLinkInPage($link);
+            foreach ($link_array as $item) {
+                $this->UrlExamService->CrawlData($class_id, $category_id, $url_exam_question_id, $item);
             }
         });
+        
+        Artisan::call('scout:import', [
+            "model" => "\App\\Models\\Question"
+        ]);
+        Artisan::call('scout:import', [
+            "model" => "\App\\Models\\Answer"
+        ]);
+        Artisan::call('scout:import', [
+            "model" => "\App\\Models\\Url_exam_question"
+        ]);
     }
 }

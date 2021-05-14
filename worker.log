@@ -61599,3 +61599,977 @@ Horizon started successfully.
       [2m+9 vendor frames [22m
   10  [internal]:0
       Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2021-05-12 07:04:46][e9390fca-6b13-403e-a922-ecc60676f6c7] Processing: App\Jobs\CrawlingJob
+[2021-05-12 07:04:54][e9390fca-6b13-403e-a922-ecc60676f6c7] Failed:     App\Jobs\CrawlingJob
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/LaravelBackpack/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+
+  at /var/www/html/LaravelBackpack/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:111
+    107▕             restore_error_handler();
+    108▕             if (!is_resource($this->stream)) {
+    109▕                 $this->stream = null;
+    110▕ 
+  ➜ 111▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $this->url));
+    112▕             }
+    113▕         }
+    114▕ 
+    115▕         if ($this->useLocking) {
+
+      [2m+9 vendor frames [22m
+  10  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2021-05-12 07:07:09][8e8de1c5-bcad-41fb-b175-3925d1d64a75] Processing: App\Jobs\CrawlingJob
+[2021-05-12 07:07:16][8e8de1c5-bcad-41fb-b175-3925d1d64a75] Processed:  App\Jobs\CrawlingJob
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/LaravelBackpack/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+
+  at /var/www/html/LaravelBackpack/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:111
+    107▕             restore_error_handler();
+    108▕             if (!is_resource($this->stream)) {
+    109▕                 $this->stream = null;
+    110▕ 
+  ➜ 111▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $this->url));
+    112▕             }
+    113▕         }
+    114▕ 
+    115▕         if ($this->useLocking) {
+
+      [2m+9 vendor frames [22m
+  10  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2021-05-13 10:37:32][90024eb7-74aa-4663-ad54-6f4b5048b92d] Processing: App\Jobs\CrawlingJob
+[2021-05-13 10:37:39][90024eb7-74aa-4663-ad54-6f4b5048b92d] Processed:  App\Jobs\CrawlingJob
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/LaravelBackpack/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+
+  at /var/www/html/LaravelBackpack/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:111
+    107▕             restore_error_handler();
+    108▕             if (!is_resource($this->stream)) {
+    109▕                 $this->stream = null;
+    110▕ 
+  ➜ 111▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $this->url));
+    112▕             }
+    113▕         }
+    114▕ 
+    115▕         if ($this->useLocking) {
+
+      [2m+9 vendor frames [22m
+  10  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2021-05-13 10:40:53][ea3da2f5-3fd4-4c32-9fbf-d84d1416c635] Processing: App\Jobs\CrawlingJob
+[2021-05-13 10:41:01][ea3da2f5-3fd4-4c32-9fbf-d84d1416c635] Failed:     App\Jobs\CrawlingJob
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/LaravelBackpack/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+
+  at /var/www/html/LaravelBackpack/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:111
+    107▕             restore_error_handler();
+    108▕             if (!is_resource($this->stream)) {
+    109▕                 $this->stream = null;
+    110▕ 
+  ➜ 111▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $this->url));
+    112▕             }
+    113▕         }
+    114▕ 
+    115▕         if ($this->useLocking) {
+
+      [2m+9 vendor frames [22m
+  10  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2021-05-13 10:42:13][b4c37149-747b-42ae-a5b9-aa663438d46c] Processing: App\Jobs\CrawlingJob
+[2021-05-13 10:42:19][b4c37149-747b-42ae-a5b9-aa663438d46c] Failed:     App\Jobs\CrawlingJob
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/LaravelBackpack/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+
+  at /var/www/html/LaravelBackpack/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:111
+    107▕             restore_error_handler();
+    108▕             if (!is_resource($this->stream)) {
+    109▕                 $this->stream = null;
+    110▕ 
+  ➜ 111▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $this->url));
+    112▕             }
+    113▕         }
+    114▕ 
+    115▕         if ($this->useLocking) {
+
+      [2m+9 vendor frames [22m
+  10  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2021-05-13 10:44:06][3675bdf2-f0dd-4042-873d-3da5632a051c] Processing: App\Jobs\CrawlingJob
+[2021-05-13 10:44:11][3675bdf2-f0dd-4042-873d-3da5632a051c] Failed:     App\Jobs\CrawlingJob
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/LaravelBackpack/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+
+  at /var/www/html/LaravelBackpack/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:111
+    107▕             restore_error_handler();
+    108▕             if (!is_resource($this->stream)) {
+    109▕                 $this->stream = null;
+    110▕ 
+  ➜ 111▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $this->url));
+    112▕             }
+    113▕         }
+    114▕ 
+    115▕         if ($this->useLocking) {
+
+      [2m+9 vendor frames [22m
+  10  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/LaravelBackpack/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+
+  at /var/www/html/LaravelBackpack/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:111
+    107▕             restore_error_handler();
+    108▕             if (!is_resource($this->stream)) {
+    109▕                 $this->stream = null;
+    110▕ 
+  ➜ 111▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $this->url));
+    112▕             }
+    113▕         }
+    114▕ 
+    115▕         if ($this->useLocking) {
+
+      [2m+9 vendor frames [22m
+  10  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2021-05-14 01:03:31][c2749b35-1738-4d57-aa43-9d83f2b743e7] Processing: App\Jobs\CrawlingJob
+[2021-05-14 01:03:37][c2749b35-1738-4d57-aa43-9d83f2b743e7] Failed:     App\Jobs\CrawlingJob
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/LaravelBackpack/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+
+  at /var/www/html/LaravelBackpack/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:111
+    107▕             restore_error_handler();
+    108▕             if (!is_resource($this->stream)) {
+    109▕                 $this->stream = null;
+    110▕ 
+  ➜ 111▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $this->url));
+    112▕             }
+    113▕         }
+    114▕ 
+    115▕         if ($this->useLocking) {
+
+      [2m+9 vendor frames [22m
+  10  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/LaravelBackpack/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+
+  at /var/www/html/LaravelBackpack/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:111
+    107▕             restore_error_handler();
+    108▕             if (!is_resource($this->stream)) {
+    109▕                 $this->stream = null;
+    110▕ 
+  ➜ 111▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $this->url));
+    112▕             }
+    113▕         }
+    114▕ 
+    115▕         if ($this->useLocking) {
+
+      [2m+9 vendor frames [22m
+  10  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2021-05-14 01:06:16][a630d140-37af-4141-9dae-d22915df0310] Processing: App\Jobs\CrawlingJob
+[2021-05-14 01:06:24][a630d140-37af-4141-9dae-d22915df0310] Processed:  App\Jobs\CrawlingJob
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/LaravelBackpack/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+
+  at /var/www/html/LaravelBackpack/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:111
+    107▕             restore_error_handler();
+    108▕             if (!is_resource($this->stream)) {
+    109▕                 $this->stream = null;
+    110▕ 
+  ➜ 111▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $this->url));
+    112▕             }
+    113▕         }
+    114▕ 
+    115▕         if ($this->useLocking) {
+
+      [2m+9 vendor frames [22m
+  10  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2021-05-14 01:10:41][52ae8765-c626-4326-8ba6-7ae906f24396] Processing: App\Jobs\CrawlingJob
+[2021-05-14 01:10:48][52ae8765-c626-4326-8ba6-7ae906f24396] Processed:  App\Jobs\CrawlingJob
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/LaravelBackpack/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+
+  at /var/www/html/LaravelBackpack/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:111
+    107▕             restore_error_handler();
+    108▕             if (!is_resource($this->stream)) {
+    109▕                 $this->stream = null;
+    110▕ 
+  ➜ 111▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $this->url));
+    112▕             }
+    113▕         }
+    114▕ 
+    115▕         if ($this->useLocking) {
+
+      [2m+9 vendor frames [22m
+  10  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2021-05-14 01:24:16][9eaf22e7-e911-4f02-acb9-75d69e9c162c] Processing: App\Jobs\CrawlingJob
+[2021-05-14 01:24:23][9eaf22e7-e911-4f02-acb9-75d69e9c162c] Failed:     App\Jobs\CrawlingJob
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/LaravelBackpack/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+
+  at /var/www/html/LaravelBackpack/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:111
+    107▕             restore_error_handler();
+    108▕             if (!is_resource($this->stream)) {
+    109▕                 $this->stream = null;
+    110▕ 
+  ➜ 111▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $this->url));
+    112▕             }
+    113▕         }
+    114▕ 
+    115▕         if ($this->useLocking) {
+
+      [2m+9 vendor frames [22m
+  10  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/LaravelBackpack/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+
+  at /var/www/html/LaravelBackpack/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:111
+    107▕             restore_error_handler();
+    108▕             if (!is_resource($this->stream)) {
+    109▕                 $this->stream = null;
+    110▕ 
+  ➜ 111▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $this->url));
+    112▕             }
+    113▕         }
+    114▕ 
+    115▕         if ($this->useLocking) {
+
+      [2m+9 vendor frames [22m
+  10  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2021-05-14 01:34:47][ea8d1265-94d4-43ee-a58f-3368cce95626] Processing: App\Jobs\CrawlingJob
+[2021-05-14 01:35:33][ea8d1265-94d4-43ee-a58f-3368cce95626] Processed:  App\Jobs\CrawlingJob
+[2021-05-14 03:48:54][3ad59062-0758-4872-b1ea-ea279d60b27b] Processing: App\Jobs\CreateIndexJob
+[2021-05-14 03:48:54][3ad59062-0758-4872-b1ea-ea279d60b27b] Failed:     App\Jobs\CreateIndexJob
+[2021-05-14 03:49:40][72b1aa6a-198f-4aa2-98b8-cb9a457eaf18] Processing: App\Jobs\CreateIndexJob
+[2021-05-14 03:49:40][72b1aa6a-198f-4aa2-98b8-cb9a457eaf18] Failed:     App\Jobs\CreateIndexJob
+[2021-05-14 03:54:31][35995907-deb4-4da1-a518-450adf474265] Processing: App\Jobs\CreateIndexJob
+[2021-05-14 03:54:31][35995907-deb4-4da1-a518-450adf474265] Failed:     App\Jobs\CreateIndexJob
+[2021-05-14 04:01:16][362f5223-0003-4c1d-a28e-b04be9eb051d] Processing: App\Jobs\CreateIndexJob
+[2021-05-14 04:01:17][362f5223-0003-4c1d-a28e-b04be9eb051d] Failed:     App\Jobs\CreateIndexJob
+[2021-05-14 04:09:26][cc10c56d-2f3d-4af0-9d60-973f94d2043a] Processing: App\Jobs\CreateIndexJob
+[2021-05-14 04:09:26][cc10c56d-2f3d-4af0-9d60-973f94d2043a] Failed:     App\Jobs\CreateIndexJob
+[2021-05-14 04:13:17][19b8f2d3-ebea-43cc-ab16-30270cebe8bb] Processing: App\Jobs\CreateIndexJob
+[2021-05-14 04:13:17][19b8f2d3-ebea-43cc-ab16-30270cebe8bb] Failed:     App\Jobs\CreateIndexJob
+[2021-05-14 04:16:50][5038578a-3df1-4f52-a2c5-7cd0ca269ffb] Processing: App\Jobs\CreateIndexJob
+[2021-05-14 04:16:50][5038578a-3df1-4f52-a2c5-7cd0ca269ffb] Failed:     App\Jobs\CreateIndexJob
+[2021-05-14 04:20:03][4dd2764b-114d-400b-94e5-ee659ee7285b] Processing: App\Jobs\CreateIndexJob
+[2021-05-14 04:20:03][4dd2764b-114d-400b-94e5-ee659ee7285b] Failed:     App\Jobs\CreateIndexJob
+[2021-05-14 04:20:30][d8052aa5-33d4-4a3b-bf8d-f273cbb7abe3] Processing: App\Jobs\CreateIndexJob
+[2021-05-14 04:20:30][d8052aa5-33d4-4a3b-bf8d-f273cbb7abe3] Failed:     App\Jobs\CreateIndexJob
+[2021-05-14 04:21:00][d607787e-8611-4433-8033-61b3380dcb0e] Processing: App\Jobs\CreateIndexJob
+[2021-05-14 04:21:00][d607787e-8611-4433-8033-61b3380dcb0e] Failed:     App\Jobs\CreateIndexJob
+[2021-05-14 04:22:34][1afba4f3-21eb-4822-91e2-88eb817ffc6c] Processing: App\Jobs\CreateIndexJob
+[2021-05-14 04:22:34][1afba4f3-21eb-4822-91e2-88eb817ffc6c] Processed:  App\Jobs\CreateIndexJob
+[2021-05-14 04:26:56][ba8e9172-23ef-4117-bb6e-b7e4584ce79f] Processing: App\Jobs\CreateIndexJob
+[2021-05-14 04:26:56][ba8e9172-23ef-4117-bb6e-b7e4584ce79f] Processed:  App\Jobs\CreateIndexJob
+[2021-05-14 04:28:38][2c7835ea-f9cf-401f-ae66-66c9839d9074] Processing: App\Jobs\CreateIndexJob
+[2021-05-14 04:28:38][2c7835ea-f9cf-401f-ae66-66c9839d9074] Processed:  App\Jobs\CreateIndexJob
+[2021-05-14 04:28:59][9b2941ef-b3c4-451c-8b69-e6a75ec131cc] Processing: App\Jobs\CreateIndexJob
+[2021-05-14 04:28:59][9b2941ef-b3c4-451c-8b69-e6a75ec131cc] Failed:     App\Jobs\CreateIndexJob
+[2021-05-14 04:33:17][90c38aac-9780-4b06-9876-4cddec187f8b] Processing: App\Jobs\CreateIndexJob
+[2021-05-14 04:33:18][90c38aac-9780-4b06-9876-4cddec187f8b] Processed:  App\Jobs\CreateIndexJob
+
+   RedisException 
+
+  read error on connection to 127.0.0.1:6379
+
+  at /var/www/html/LaravelBackpack/vendor/laravel/framework/src/Illuminate/Redis/Connections/Connection.php:116
+    112▕     public function command($method, array $parameters = [])
+    113▕     {
+    114▕         $start = microtime(true);
+    115▕ 
+  ➜ 116▕         $result = $this->client->{$method}(...$parameters);
+    117▕ 
+    118▕         $time = round((microtime(true) - $start) * 1000, 2);
+    119▕ 
+    120▕         if (isset($this->events)) {
+
+      [2m+24 vendor frames [22m
+  25  /var/www/html/LaravelBackpack/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+[2021-05-14 06:51:03][f31781f4-78f0-44d3-864e-a31ad76781e1] Processing: App\Jobs\CreateIndexJob
+[2021-05-14 06:51:03][f31781f4-78f0-44d3-864e-a31ad76781e1] Failed:     App\Jobs\CreateIndexJob
+[2021-05-14 06:51:03][6e6e26cd-0f88-45ca-b5aa-ab33c85d1a39] Processing: App\Jobs\ClassJob
+[2021-05-14 06:51:04][6e6e26cd-0f88-45ca-b5aa-ab33c85d1a39] Processed:  App\Jobs\ClassJob
+[2021-05-14 06:51:04][f656b604-42c9-4220-94e0-a13035a3cfe2] Processing: App\Jobs\CategoryJob
+[2021-05-14 06:51:14][f656b604-42c9-4220-94e0-a13035a3cfe2] Processed:  App\Jobs\CategoryJob
+[2021-05-14 06:54:02][13b7aeed-caaa-4ed4-847c-808b0250be89] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 06:55:02][13b7aeed-caaa-4ed4-847c-808b0250be89] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 06:55:04][2ed9166a-ffef-4584-bbb7-2fb848e6a1df] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 06:55:48][2ed9166a-ffef-4584-bbb7-2fb848e6a1df] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 06:55:48][b733ff47-defe-4fd7-a146-4d1029be9457] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 06:56:49][b733ff47-defe-4fd7-a146-4d1029be9457] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 06:56:50][69d3b49b-5cab-4bb0-b708-76c82007c7c9] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 06:57:42][69d3b49b-5cab-4bb0-b708-76c82007c7c9] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 06:57:42][d5216149-c093-4e05-9892-9a96578ac9a0] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 06:58:31][d5216149-c093-4e05-9892-9a96578ac9a0] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 06:58:31][d7c33430-466b-4e5b-9727-8ba9bc1dc0e6] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 06:59:17][d7c33430-466b-4e5b-9727-8ba9bc1dc0e6] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 06:59:17][c87ab7b4-5817-412a-9ec8-d10c2fbe3bf3] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:00:15][c87ab7b4-5817-412a-9ec8-d10c2fbe3bf3] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:00:15][d9c831ea-d47c-4f7c-bec4-4a7c3d995081] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:00:31][d9c831ea-d47c-4f7c-bec4-4a7c3d995081] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:00:31][7e7a95d0-e4f1-4c13-9e88-5d3a6192d171] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:00:36][7e7a95d0-e4f1-4c13-9e88-5d3a6192d171] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:00:36][fba9c33b-1d70-4b8d-b73f-16e7071ab108] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:00:39][fba9c33b-1d70-4b8d-b73f-16e7071ab108] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:00:39][36837d2f-db3e-485e-ac40-afbc7af4ae07] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:00:40][36837d2f-db3e-485e-ac40-afbc7af4ae07] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:00:40][9cde6ad7-215c-40be-a75f-1cead3a194b7] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:00:45][9cde6ad7-215c-40be-a75f-1cead3a194b7] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:00:45][3c269ec0-dec8-47fb-8867-68015ece6298] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:00:52][3c269ec0-dec8-47fb-8867-68015ece6298] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:00:52][2d476f6b-a74f-4bfa-9b4a-9baf8cb99430] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:01:04][2d476f6b-a74f-4bfa-9b4a-9baf8cb99430] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:01:04][c703fab4-78da-4685-9c5a-c1acfd737ce8] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:01:04][c703fab4-78da-4685-9c5a-c1acfd737ce8] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:01:04][20839b1e-0bdb-4a30-b076-7034d884fca5] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:01:04][20839b1e-0bdb-4a30-b076-7034d884fca5] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:01:04][22fce3f0-6322-4b58-b578-516a0735d9fe] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:01:06][22fce3f0-6322-4b58-b578-516a0735d9fe] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:01:06][6194d824-6b02-4c65-8296-ab6c30cf3d63] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:01:07][6194d824-6b02-4c65-8296-ab6c30cf3d63] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:01:07][a7a8d0f1-bf06-41b2-bcf2-0362ac30da2e] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:01:08][a7a8d0f1-bf06-41b2-bcf2-0362ac30da2e] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:01:08][529621f0-7679-4262-925e-4187984b2636] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:02:08][529621f0-7679-4262-925e-4187984b2636] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:02:10][bcb421e4-165e-4051-8fbe-4bba593815ab] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:03:10][bcb421e4-165e-4051-8fbe-4bba593815ab] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:03:11][90a4ab38-1c6b-4395-8778-60ba9c837616] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:04:11][90a4ab38-1c6b-4395-8778-60ba9c837616] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:04:12][1894f071-b4d8-4e86-ad52-c987a676d08a] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:04:48][1894f071-b4d8-4e86-ad52-c987a676d08a] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:04:48][287f0f00-340f-433d-accd-59901cf78371] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:05:48][287f0f00-340f-433d-accd-59901cf78371] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:05:50][58fd6357-8670-40e3-83f9-3a5e3ecab86b] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:06:50][58fd6357-8670-40e3-83f9-3a5e3ecab86b] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:06:51][a51e53bf-ad14-4286-9f6e-fa4244563b80] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:07:52][a51e53bf-ad14-4286-9f6e-fa4244563b80] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:07:53][331cbce7-8dae-497b-84cd-ae8ed4664b74] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:08:53][331cbce7-8dae-497b-84cd-ae8ed4664b74] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:08:54][266ea60e-c0bd-4407-bbf2-567b0e16595e] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:09:55][266ea60e-c0bd-4407-bbf2-567b0e16595e] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:09:56][ae4f9067-7072-4f25-9b31-e36e1572c422] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:09:56][ae4f9067-7072-4f25-9b31-e36e1572c422] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:09:56][4da9bdd0-ba58-469d-bbab-57edd996b774] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:09:57][4da9bdd0-ba58-469d-bbab-57edd996b774] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:09:57][760c5ac6-2153-4e7b-81a3-c8b546ecc628] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:09:58][760c5ac6-2153-4e7b-81a3-c8b546ecc628] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:09:58][4cbfe493-4f2b-4a2c-bd5e-0e3798e0bfcf] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:09:58][4cbfe493-4f2b-4a2c-bd5e-0e3798e0bfcf] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:09:58][2092b4b5-4222-462f-92fe-f74897f733da] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:10:08][2092b4b5-4222-462f-92fe-f74897f733da] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:10:08][2dd612cf-99fc-4069-b308-4a2fe09b44c8] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:11:08][2dd612cf-99fc-4069-b308-4a2fe09b44c8] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:11:09][90d32cb0-9ec9-410c-9051-ad26b095a32b] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:11:22][90d32cb0-9ec9-410c-9051-ad26b095a32b] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:11:22][11423413-1001-4e0a-b7d4-cc8c52728fe8] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:11:32][11423413-1001-4e0a-b7d4-cc8c52728fe8] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:11:32][85f33588-e91a-4321-ac38-c37054ab3360] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:11:33][85f33588-e91a-4321-ac38-c37054ab3360] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:11:33][32b23159-d06f-46b4-9889-67860346eafa] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:11:33][32b23159-d06f-46b4-9889-67860346eafa] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:11:33][baa93ebb-2c5b-4b86-8b2e-50c540569c92] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:12:34][baa93ebb-2c5b-4b86-8b2e-50c540569c92] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:12:35][e82baf26-72c6-40f6-904c-e0e7d93906af] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:13:36][e82baf26-72c6-40f6-904c-e0e7d93906af] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:13:37][3e2706d3-36ad-4311-94a3-dc281be83020] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:14:37][3e2706d3-36ad-4311-94a3-dc281be83020] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:14:39][f5bc939a-5dcc-4417-b0af-7c8a2d343570] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:15:29][f5bc939a-5dcc-4417-b0af-7c8a2d343570] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:15:29][393fcefe-734b-43b3-b1a0-f865f7e0ce57] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:16:30][393fcefe-734b-43b3-b1a0-f865f7e0ce57] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:16:31][d318aac7-0aff-4ce2-b65d-09170e9bc054] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:17:32][d318aac7-0aff-4ce2-b65d-09170e9bc054] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:17:33][5667dd21-1b7a-4f99-9f23-a6e051327e7f] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:18:33][5667dd21-1b7a-4f99-9f23-a6e051327e7f] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:18:35][19e2ad3e-f787-416e-8d18-83bc0b8794df] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:19:35][19e2ad3e-f787-416e-8d18-83bc0b8794df] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:19:36][9b4aa03d-7de0-4d85-a7fb-37e6776d540e] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:19:37][9b4aa03d-7de0-4d85-a7fb-37e6776d540e] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:19:37][773c08fd-d41b-48de-924f-d220e147420e] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:19:38][773c08fd-d41b-48de-924f-d220e147420e] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:19:38][258b5ad1-d8c6-4a03-89d4-9b051e48284f] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:19:38][258b5ad1-d8c6-4a03-89d4-9b051e48284f] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:19:39][b176439f-9503-405a-8dab-b812480fce29] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:19:39][b176439f-9503-405a-8dab-b812480fce29] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:19:39][5503f48e-ed70-45ab-b247-f4c0818c7eac] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:19:40][5503f48e-ed70-45ab-b247-f4c0818c7eac] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:19:40][f2f0b753-977b-4fba-b94e-58cd5f8f72bf] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:19:55][f2f0b753-977b-4fba-b94e-58cd5f8f72bf] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:19:55][743409fd-b043-4f9d-bbd2-a4c6d53ce526] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:20:56][743409fd-b043-4f9d-bbd2-a4c6d53ce526] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:20:57][8c940f42-6a02-4880-8458-8d0c0a37a67a] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:21:58][8c940f42-6a02-4880-8458-8d0c0a37a67a] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:21:59][2154ce6f-240e-44c0-ae85-53b911183506] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:22:13][2154ce6f-240e-44c0-ae85-53b911183506] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:22:13][eb0cf93a-5dd9-4531-8748-8c70f868077b] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:22:14][eb0cf93a-5dd9-4531-8748-8c70f868077b] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:22:14][fea39b6d-5e54-4bec-bec7-83900dcd0f57] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:22:15][fea39b6d-5e54-4bec-bec7-83900dcd0f57] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:22:15][1e420558-e7f3-48e7-a9ca-5f10c6fa6773] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:23:16][1e420558-e7f3-48e7-a9ca-5f10c6fa6773] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:23:17][b56cb17a-8597-4670-8603-4f19b85ffefb] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:24:17][b56cb17a-8597-4670-8603-4f19b85ffefb] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:24:19][8d91d053-7dc5-4f82-8b91-25dc386bc792] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:25:19][8d91d053-7dc5-4f82-8b91-25dc386bc792] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:25:21][3a0c2fed-d98e-425f-b924-e78e918e394a] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:26:21][3a0c2fed-d98e-425f-b924-e78e918e394a] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:26:22][6fa00c33-684f-46db-a960-580624f69f4b] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:27:23][6fa00c33-684f-46db-a960-580624f69f4b] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:27:25][afe678d3-ccbc-4059-967b-63d7b3edc711] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:28:25][afe678d3-ccbc-4059-967b-63d7b3edc711] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:28:26][1d193486-0c0b-46bd-b2d9-c8005dde4350] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:29:27][1d193486-0c0b-46bd-b2d9-c8005dde4350] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:29:29][3afda4dc-c614-40cd-b776-d94ec75e7c5d] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:30:29][3afda4dc-c614-40cd-b776-d94ec75e7c5d] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:30:31][21f7a162-1a97-4d50-8fe7-9ba90da50eae] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:30:31][21f7a162-1a97-4d50-8fe7-9ba90da50eae] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:30:31][0da33323-c7c0-431c-8e13-875d3be0f70e] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:30:32][0da33323-c7c0-431c-8e13-875d3be0f70e] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:30:32][62058fe6-8130-4eff-b808-b0ad2e219530] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:30:33][62058fe6-8130-4eff-b808-b0ad2e219530] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:30:33][8157c157-619e-45c0-a0c6-c525948ea72c] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:30:34][8157c157-619e-45c0-a0c6-c525948ea72c] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:30:34][fa95b290-98b3-4b30-b69d-81d041996ff8] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:30:35][fa95b290-98b3-4b30-b69d-81d041996ff8] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:30:35][046cbc23-1652-43a2-9394-004b162107b5] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:31:34][046cbc23-1652-43a2-9394-004b162107b5] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:31:34][ba65c024-8bd2-46f0-8499-b1d742d1e617] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:32:34][ba65c024-8bd2-46f0-8499-b1d742d1e617] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:32:36][eb050740-6bba-4f94-be33-c52ac5cc310f] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:33:36][eb050740-6bba-4f94-be33-c52ac5cc310f] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:33:37][c9953571-0b57-4796-8f44-3928ab01a637] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:33:47][c9953571-0b57-4796-8f44-3928ab01a637] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:33:47][f7df5ad1-e5da-4890-9915-58a17296a1a0] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:33:47][f7df5ad1-e5da-4890-9915-58a17296a1a0] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:33:47][3d9e2588-7314-455d-8ab0-fa13ec9156a9] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:33:47][3d9e2588-7314-455d-8ab0-fa13ec9156a9] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:33:47][f83a2293-bfa5-4e19-8fdd-e09c3a2387cc] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:34:47][f83a2293-bfa5-4e19-8fdd-e09c3a2387cc] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:34:49][3d7c41ec-6519-47f5-b28d-6cfd602ced56] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:35:49][3d7c41ec-6519-47f5-b28d-6cfd602ced56] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:35:51][6200de90-46cb-4d6d-b341-dafd4dcbe55a] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:36:51][6200de90-46cb-4d6d-b341-dafd4dcbe55a] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:36:52][a67e62bf-b46f-4801-a833-00094abb7d9e] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:37:52][a67e62bf-b46f-4801-a833-00094abb7d9e] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:37:53][71a54e76-6ff4-4b47-b6f0-497b2fde8cb9] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:38:53][71a54e76-6ff4-4b47-b6f0-497b2fde8cb9] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:38:55][4e042818-f7b1-4af6-af42-bb42cd276627] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:39:29][4e042818-f7b1-4af6-af42-bb42cd276627] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:39:29][6d78a8a1-bfb3-467b-b52e-9884e372b33d] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:40:24][6d78a8a1-bfb3-467b-b52e-9884e372b33d] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:40:24][19617843-5928-46e5-affc-fd6284a42efa] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:40:57][19617843-5928-46e5-affc-fd6284a42efa] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:40:57][9a05ca48-01ed-4bf0-85d1-97fc35b72b09] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:40:57][9a05ca48-01ed-4bf0-85d1-97fc35b72b09] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:40:57][ad60c7af-4b5c-43ef-baf0-92d182ec7832] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:40:57][ad60c7af-4b5c-43ef-baf0-92d182ec7832] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:40:57][93e9871d-0106-44b4-a207-3edf79efdf07] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:40:58][93e9871d-0106-44b4-a207-3edf79efdf07] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:40:58][853ab956-8f28-4762-83b4-39bc93934039] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:40:59][853ab956-8f28-4762-83b4-39bc93934039] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:40:59][ed415f4b-6794-4fff-9de5-95c14b805f15] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:41:00][ed415f4b-6794-4fff-9de5-95c14b805f15] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:41:00][22ce584e-ce11-485d-ae15-77770471b361] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:41:51][22ce584e-ce11-485d-ae15-77770471b361] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:41:51][a6bea049-1a3f-4d78-b111-e4698fb569c0] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:42:09][a6bea049-1a3f-4d78-b111-e4698fb569c0] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:42:09][ed579be2-e1e4-44df-8425-f7487a475f9a] Processing: App\Jobs\UrlExamQuestionsJob
+PHP Fatal error:  Uncaught ErrorException: fopen(php://stderr): failed to open stream: operation failed in /var/www/html/LaravelBackpack/vendor/symfony/console/Output/ConsoleOutput.php:164
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /var/www/html/LaravelBackpack/vendor/symfony/console/Output/ConsoleOutput.php(164): fopen()
+#2 /var/www/html/LaravelBackpack/vendor/symfony/console/Output/ConsoleOutput.php(46): Symfony\Component\Console\Output\ConsoleOutput->openErrorStream()
+#3 /var/www/html/LaravelBackpack/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(108): Symfony\Component\Console\Output\ConsoleOutput->__construct()
+#4 /var/www/html/LaravelBackpack/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(94): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole()
+#5 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 {main}
+  thrown in /var/www/html/LaravelBackpack/vendor/symfony/console/Output/ConsoleOutput.php on line 164
+PHP Fatal error:  Uncaught ErrorException: include(/var/www/html/LaravelBackpack/vendor/symfony/error-handler/Error/FatalError.php): failed to open stream: Too many open files in /var/www/html/LaravelBackpack/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /var/www/html/LaravelBackpack/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /var/www/html/LaravelBackpack/vendor/composer/ClassLoader.php(444): include()
+#2 /var/www/html/LaravelBackpack/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#4 /var/www/html/LaravelBackpack/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(143): spl_autoload_call()
+#5 /var/www/html/LaravelBackpack/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\Foundation\Bootstrap\HandleExceptions->fatalErrorFromPhpError()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\Handl in /var/www/html/LaravelBackpack/vendor/composer/ClassLoader.php on line 444
+[2021-05-14 07:42:11][185c68fa-9b56-482a-b6eb-257427de6342] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:42:45][185c68fa-9b56-482a-b6eb-257427de6342] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:42:46][d8b6e0a0-9c2f-4404-b3a6-3309862885d1] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:42:46][d8b6e0a0-9c2f-4404-b3a6-3309862885d1] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:42:46][601a94e1-5745-4b63-89e1-70ddbbce5d0d] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:42:46][601a94e1-5745-4b63-89e1-70ddbbce5d0d] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:42:46][cc374616-13cb-401d-8715-e74f196e6b1b] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:43:46][cc374616-13cb-401d-8715-e74f196e6b1b] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:43:47][d71a59f7-8dfc-4b98-b0f6-ed81b5efb47d] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:44:39][d71a59f7-8dfc-4b98-b0f6-ed81b5efb47d] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:44:39][28cbf2cb-f923-4c77-b65d-7acd2c651f1e] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:45:40][28cbf2cb-f923-4c77-b65d-7acd2c651f1e] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:45:41][84f1b8a5-e684-4725-8a6d-db5c962cbba6] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:46:41][84f1b8a5-e684-4725-8a6d-db5c962cbba6] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:46:42][d6d71e23-e8c2-4be0-97e3-29e1064e32e6] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:47:43][d6d71e23-e8c2-4be0-97e3-29e1064e32e6] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:47:44][77ddf546-3603-4e55-95d4-40a3ad1b04ec] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:48:44][77ddf546-3603-4e55-95d4-40a3ad1b04ec] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:48:46][3451b42c-3e36-4ccb-958d-8b268a4a47cf] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:49:46][3451b42c-3e36-4ccb-958d-8b268a4a47cf] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:49:47][8a06b9f9-29d0-4cb3-ae02-a96c59f51bff] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:50:11][8a06b9f9-29d0-4cb3-ae02-a96c59f51bff] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:50:11][ccdd843b-f85e-41c9-a658-666a3d04510e] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:50:11][ccdd843b-f85e-41c9-a658-666a3d04510e] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:50:11][091bc9c8-e520-4037-95a6-309c24df2867] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:50:12][091bc9c8-e520-4037-95a6-309c24df2867] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:50:12][eeaf2ec5-7ebf-4c2a-a607-5c8c9f09e14f] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:50:12][eeaf2ec5-7ebf-4c2a-a607-5c8c9f09e14f] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:50:12][1cc723ad-b13e-4e05-9da5-49b759ea5aca] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:50:13][1cc723ad-b13e-4e05-9da5-49b759ea5aca] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:50:13][0944bf0e-981e-4293-8e39-1af0e5bafbb6] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:50:13][0944bf0e-981e-4293-8e39-1af0e5bafbb6] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:50:13][aec2e1bb-0974-49dd-8023-42734da87e75] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:50:44][aec2e1bb-0974-49dd-8023-42734da87e75] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:50:44][06a86881-f763-4774-80f2-33810aea72c5] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:51:44][06a86881-f763-4774-80f2-33810aea72c5] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:51:45][2e05b75d-6c18-4fc7-8fcd-acab5cb4eb5d] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:52:21][2e05b75d-6c18-4fc7-8fcd-acab5cb4eb5d] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:52:21][9b3ce831-cf84-40f3-9544-d3318439a68f] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:52:38][9b3ce831-cf84-40f3-9544-d3318439a68f] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:52:38][18d44d3c-132c-4caf-8eec-ad3b1f3d8feb] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:52:38][18d44d3c-132c-4caf-8eec-ad3b1f3d8feb] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:52:38][6fd64496-9291-4d56-9d45-b94851acc452] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:52:39][6fd64496-9291-4d56-9d45-b94851acc452] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:52:39][ec5d2412-1668-45bd-bbd9-1fa57d7805fb] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:53:39][ec5d2412-1668-45bd-bbd9-1fa57d7805fb] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:53:41][78c77daf-1516-4a0c-aef4-0df733d0f9aa] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:54:41][78c77daf-1516-4a0c-aef4-0df733d0f9aa] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:54:42][9ea34d61-3b3d-44d6-990c-9759f08edd9e] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:54:42][9ea34d61-3b3d-44d6-990c-9759f08edd9e] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:54:42][d0a95798-1962-4113-8a75-9001e04aba0f] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:55:39][d0a95798-1962-4113-8a75-9001e04aba0f] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:55:39][9586ed47-2805-4518-87f9-7f0c1cbe37bc] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:56:21][9586ed47-2805-4518-87f9-7f0c1cbe37bc] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:56:21][52f6c7c2-324a-4b40-bde4-51701dd5998e] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:57:15][52f6c7c2-324a-4b40-bde4-51701dd5998e] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:57:15][7bb7356d-37db-4969-b64a-8ef130dfce17] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:57:31][7bb7356d-37db-4969-b64a-8ef130dfce17] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:57:31][21c36f9c-e2b4-4de0-8577-256c79b7987c] Processing: App\Jobs\UrlExamQuestionsJob
+PHP Fatal error:  Uncaught ErrorException: fopen(php://stderr): failed to open stream: operation failed in /var/www/html/LaravelBackpack/vendor/symfony/console/Output/ConsoleOutput.php:164
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /var/www/html/LaravelBackpack/vendor/symfony/console/Output/ConsoleOutput.php(164): fopen()
+#2 /var/www/html/LaravelBackpack/vendor/symfony/console/Output/ConsoleOutput.php(46): Symfony\Component\Console\Output\ConsoleOutput->openErrorStream()
+#3 /var/www/html/LaravelBackpack/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(108): Symfony\Component\Console\Output\ConsoleOutput->__construct()
+#4 /var/www/html/LaravelBackpack/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(94): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole()
+#5 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 {main}
+  thrown in /var/www/html/LaravelBackpack/vendor/symfony/console/Output/ConsoleOutput.php on line 164
+PHP Fatal error:  Uncaught ErrorException: include(/var/www/html/LaravelBackpack/vendor/symfony/error-handler/Error/FatalError.php): failed to open stream: Too many open files in /var/www/html/LaravelBackpack/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /var/www/html/LaravelBackpack/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /var/www/html/LaravelBackpack/vendor/composer/ClassLoader.php(444): include()
+#2 /var/www/html/LaravelBackpack/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#4 /var/www/html/LaravelBackpack/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(143): spl_autoload_call()
+#5 /var/www/html/LaravelBackpack/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\Foundation\Bootstrap\HandleExceptions->fatalErrorFromPhpError()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\Handl in /var/www/html/LaravelBackpack/vendor/composer/ClassLoader.php on line 444
+[2021-05-14 07:57:34][ad02c6ec-96af-48f5-b68a-d4419023b171] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:57:34][ad02c6ec-96af-48f5-b68a-d4419023b171] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:57:34][3a99cab2-6e3d-4e30-802d-9fd2c26bd980] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:57:34][3a99cab2-6e3d-4e30-802d-9fd2c26bd980] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:57:34][989dd0fe-b0ad-49d1-b673-30894e3605cc] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:57:36][989dd0fe-b0ad-49d1-b673-30894e3605cc] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:57:36][d509e655-975c-484b-b7a3-b5642c4466b7] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:57:36][d509e655-975c-484b-b7a3-b5642c4466b7] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:57:36][34a66ba0-3624-44af-b174-36d483cb6b23] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:57:36][34a66ba0-3624-44af-b174-36d483cb6b23] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:57:36][d8ba0e7b-2c1b-4a44-944d-c62d88a4977a] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:57:57][d8ba0e7b-2c1b-4a44-944d-c62d88a4977a] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:57:57][81cd60af-9c97-4572-a03d-402b01ab440d] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:58:57][81cd60af-9c97-4572-a03d-402b01ab440d] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:58:58][9578dd19-27d4-4745-81d8-63a00b8f05d1] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:59:47][9578dd19-27d4-4745-81d8-63a00b8f05d1] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 07:59:47][aa77f982-847f-4086-8dc8-00225c9098ac] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:00:02][aa77f982-847f-4086-8dc8-00225c9098ac] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:00:02][d95d6c29-5714-4503-9b23-dfb8b8f61040] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:00:02][d95d6c29-5714-4503-9b23-dfb8b8f61040] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:00:02][c6f0570d-322c-4a1c-b806-055d0727e466] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:00:03][c6f0570d-322c-4a1c-b806-055d0727e466] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:00:03][6404f205-1949-4a8b-8647-2f5ba17cf865] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:01:03][6404f205-1949-4a8b-8647-2f5ba17cf865] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:01:04][e9e7acf2-23a8-461f-abae-2ca6363956ef] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:02:01][e9e7acf2-23a8-461f-abae-2ca6363956ef] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:02:01][d1ba5e44-1fd2-45b0-a204-123d3d0fdb48] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:02:01][d1ba5e44-1fd2-45b0-a204-123d3d0fdb48] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:02:01][5f33444e-866e-4d19-a6b0-c6ad55e47aa0] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:03:01][5f33444e-866e-4d19-a6b0-c6ad55e47aa0] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:03:03][308b38b7-89fc-4f22-acc5-61a475e9318b] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:03:39][308b38b7-89fc-4f22-acc5-61a475e9318b] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:03:39][c51722a8-c612-4b49-8341-6f140b3c39fc] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:04:06][c51722a8-c612-4b49-8341-6f140b3c39fc] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:04:06][3c04680d-2a6d-4037-9095-09b1de088311] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:05:06][3c04680d-2a6d-4037-9095-09b1de088311] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:05:08][cba46d8a-ba6a-42e3-b0a5-bf9f93763b94] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:05:34][cba46d8a-ba6a-42e3-b0a5-bf9f93763b94] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:05:34][ed8f9912-9905-4f76-b639-b24be00d26f1] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:05:35][ed8f9912-9905-4f76-b639-b24be00d26f1] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:05:35][46645e2d-f0de-47ea-ab12-0614b79eadef] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:05:35][46645e2d-f0de-47ea-ab12-0614b79eadef] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:05:35][75e50022-bac0-49ca-afde-66204e9b97ab] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:05:35][75e50022-bac0-49ca-afde-66204e9b97ab] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:05:35][d4c09373-1bf3-4670-b3b5-785c3e986b8b] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:05:36][d4c09373-1bf3-4670-b3b5-785c3e986b8b] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:05:36][f2955ba3-1fab-413e-9a20-fc9e221e09d5] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:05:37][f2955ba3-1fab-413e-9a20-fc9e221e09d5] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:05:37][665cd98e-34f1-4128-b06e-e8101481f8f1] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:06:33][665cd98e-34f1-4128-b06e-e8101481f8f1] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:06:33][fbea40b6-302b-4e94-ab02-042d71bf5d3d] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:07:26][fbea40b6-302b-4e94-ab02-042d71bf5d3d] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:07:26][3d00337f-1835-4355-989c-d88aacc74087] Processing: App\Jobs\UrlExamQuestionsJob
+PHP Fatal error:  Uncaught ErrorException: fopen(php://stderr): failed to open stream: operation failed in /var/www/html/LaravelBackpack/vendor/symfony/console/Output/ConsoleOutput.php:164
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /var/www/html/LaravelBackpack/vendor/symfony/console/Output/ConsoleOutput.php(164): fopen()
+#2 /var/www/html/LaravelBackpack/vendor/symfony/console/Output/ConsoleOutput.php(46): Symfony\Component\Console\Output\ConsoleOutput->openErrorStream()
+#3 /var/www/html/LaravelBackpack/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(108): Symfony\Component\Console\Output\ConsoleOutput->__construct()
+#4 /var/www/html/LaravelBackpack/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(94): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole()
+#5 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 {main}
+  thrown in /var/www/html/LaravelBackpack/vendor/symfony/console/Output/ConsoleOutput.php on line 164
+PHP Fatal error:  Uncaught ErrorException: include(/var/www/html/LaravelBackpack/vendor/symfony/error-handler/Error/FatalError.php): failed to open stream: Too many open files in /var/www/html/LaravelBackpack/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /var/www/html/LaravelBackpack/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /var/www/html/LaravelBackpack/vendor/composer/ClassLoader.php(444): include()
+#2 /var/www/html/LaravelBackpack/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#4 /var/www/html/LaravelBackpack/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(143): spl_autoload_call()
+#5 /var/www/html/LaravelBackpack/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\Foundation\Bootstrap\HandleExceptions->fatalErrorFromPhpError()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\Handl in /var/www/html/LaravelBackpack/vendor/composer/ClassLoader.php on line 444
+[2021-05-14 08:07:28][22562a20-cf7c-4196-b319-32814227897a] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:07:46][22562a20-cf7c-4196-b319-32814227897a] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:07:46][a7884925-6ed9-491c-bb4d-35817b476642] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:07:46][a7884925-6ed9-491c-bb4d-35817b476642] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:07:46][9f3e3045-3d49-4f20-9ec9-98476444ec77] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:07:47][9f3e3045-3d49-4f20-9ec9-98476444ec77] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:07:47][c42c5b36-750b-4ec2-9caf-3f05a8e4c656] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:08:47][c42c5b36-750b-4ec2-9caf-3f05a8e4c656] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:08:48][ed21c36d-a452-4af0-bf2b-8c1312cec140] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:08:49][ed21c36d-a452-4af0-bf2b-8c1312cec140] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:08:49][f8235de1-1826-410c-a4f9-ed867ee61fb9] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:08:49][f8235de1-1826-410c-a4f9-ed867ee61fb9] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:08:49][8a3fd92b-d1fa-424f-8fc9-c3216868e648] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:09:12][8a3fd92b-d1fa-424f-8fc9-c3216868e648] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:09:12][8b9fdfc4-5db4-4f11-b838-0cd4c0afdaf9] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:09:12][8b9fdfc4-5db4-4f11-b838-0cd4c0afdaf9] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:09:12][84bbff7b-869d-4e08-ae88-6ea04227bd7f] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:09:12][84bbff7b-869d-4e08-ae88-6ea04227bd7f] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:09:12][c63348e4-102e-482d-98a3-646691c8e24c] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:09:13][c63348e4-102e-482d-98a3-646691c8e24c] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:09:13][11c8109d-e5ab-4985-8b43-b20854bcc1de] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:09:13][11c8109d-e5ab-4985-8b43-b20854bcc1de] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:09:13][28bb78f7-308b-4887-8c2d-ff548327f10e] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:09:15][28bb78f7-308b-4887-8c2d-ff548327f10e] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:09:15][25373b43-e345-4f7e-962b-fb662a2b00a3] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:09:15][25373b43-e345-4f7e-962b-fb662a2b00a3] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:09:15][c783a02c-f40f-4ea1-aeed-13a7787522c1] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:09:15][c783a02c-f40f-4ea1-aeed-13a7787522c1] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:09:15][10ef5a26-85e6-4682-be9e-d3da1f5474af] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:09:16][10ef5a26-85e6-4682-be9e-d3da1f5474af] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:09:16][fce45433-acc1-4746-92d5-8122714df0dd] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:09:17][fce45433-acc1-4746-92d5-8122714df0dd] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:09:17][ee88162e-a06d-48f3-88fd-834b1841e028] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:09:17][ee88162e-a06d-48f3-88fd-834b1841e028] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:09:18][454e8407-78e3-409b-bc75-1e7ddf096d26] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:09:18][454e8407-78e3-409b-bc75-1e7ddf096d26] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:09:18][a58dbd33-ff14-4753-a68c-6c993fa11178] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:09:19][a58dbd33-ff14-4753-a68c-6c993fa11178] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:09:19][c75e1f34-5db9-4201-b1bf-233ac067e6d6] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:09:21][c75e1f34-5db9-4201-b1bf-233ac067e6d6] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:09:22][05790aa9-0fe7-43fe-a6e6-c2b0e13e7f86] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:09:26][05790aa9-0fe7-43fe-a6e6-c2b0e13e7f86] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:09:26][ece28934-5913-4ff7-a1ad-a10cb92c3128] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:09:28][ece28934-5913-4ff7-a1ad-a10cb92c3128] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:09:28][93a429cd-3167-4611-a721-8998029572e3] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:10:29][93a429cd-3167-4611-a721-8998029572e3] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:10:30][e7243cc4-fc09-4af5-a9e8-473c872fd4cc] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:10:30][e7243cc4-fc09-4af5-a9e8-473c872fd4cc] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:10:30][cf5262d5-45ad-4888-9db9-4a0509ff4210] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:10:31][cf5262d5-45ad-4888-9db9-4a0509ff4210] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:10:31][2863fd69-23d4-41fd-9b9a-28e6b24fbf6c] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:10:55][2863fd69-23d4-41fd-9b9a-28e6b24fbf6c] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:10:55][1daaac08-dece-45fa-955c-d9c3b18637c1] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:10:56][1daaac08-dece-45fa-955c-d9c3b18637c1] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:10:56][ba5e54a6-73b6-4b8a-832c-fac93030b405] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:10:57][ba5e54a6-73b6-4b8a-832c-fac93030b405] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:10:57][7a9534c9-07b7-4ef0-887b-8061963f265a] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:10:57][7a9534c9-07b7-4ef0-887b-8061963f265a] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:10:57][0b758d80-53c8-4798-9e75-af0240f90d6d] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:10:58][0b758d80-53c8-4798-9e75-af0240f90d6d] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:10:58][457b6754-d51f-4626-93dc-d5d51742f13f] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:10:59][457b6754-d51f-4626-93dc-d5d51742f13f] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:10:59][1a1d821c-e9c9-435f-8a56-4bdec244c3d1] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:10:59][1a1d821c-e9c9-435f-8a56-4bdec244c3d1] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:10:59][b92b2956-db25-45a8-b8ee-15442268a246] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:10:59][b92b2956-db25-45a8-b8ee-15442268a246] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:10:59][6086a60f-9389-4147-9384-a522f856113a] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:11:00][6086a60f-9389-4147-9384-a522f856113a] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:11:00][030b8252-6e44-4caa-91fd-97c233f3b231] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:11:02][030b8252-6e44-4caa-91fd-97c233f3b231] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:11:02][4c251e1d-c64f-4c8f-bb2c-936fbc0e47a0] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:11:02][4c251e1d-c64f-4c8f-bb2c-936fbc0e47a0] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:11:02][314edc92-4c0f-4bf8-b84a-508ec22ec48f] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:11:02][314edc92-4c0f-4bf8-b84a-508ec22ec48f] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:11:02][3845ccc1-f78e-4b96-bb6c-b256c370df81] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:11:03][3845ccc1-f78e-4b96-bb6c-b256c370df81] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:11:03][14b3448b-7fe1-489c-8015-8183df9ef522] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:11:04][14b3448b-7fe1-489c-8015-8183df9ef522] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:11:04][94bb819e-de21-4cc3-a603-934aec3798d4] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:11:08][94bb819e-de21-4cc3-a603-934aec3798d4] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:11:08][2db363a9-eb54-4d4d-9817-25162d0d9c8f] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:11:11][2db363a9-eb54-4d4d-9817-25162d0d9c8f] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:11:11][7d2009af-de69-4535-b004-9c51f556d61f] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:12:11][7d2009af-de69-4535-b004-9c51f556d61f] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:12:13][9e8f5c0e-7650-4677-be0c-77e85868d34e] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:12:13][9e8f5c0e-7650-4677-be0c-77e85868d34e] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:12:13][db5c7ec0-4a06-49e3-b13c-c44a5e76f95a] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:12:13][db5c7ec0-4a06-49e3-b13c-c44a5e76f95a] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:12:13][71ecf2c5-c776-4130-9e39-c334614dfe29] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:12:18][71ecf2c5-c776-4130-9e39-c334614dfe29] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:12:18][1f9791e4-bf85-42f7-94d3-4e3f21c97a02] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:12:19][1f9791e4-bf85-42f7-94d3-4e3f21c97a02] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:12:19][86191ef3-7a08-4cce-a621-a0a26a017095] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:12:19][86191ef3-7a08-4cce-a621-a0a26a017095] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:12:19][331def57-dcac-4f95-a779-89e339c265ff] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:12:19][331def57-dcac-4f95-a779-89e339c265ff] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:12:20][c59f8c0b-d1e4-4416-970c-2836d3a1280f] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:12:21][c59f8c0b-d1e4-4416-970c-2836d3a1280f] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:12:21][04a33f62-546f-4ef4-afd1-e473359e8362] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:12:21][04a33f62-546f-4ef4-afd1-e473359e8362] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:12:21][6514222b-109e-4dab-ade0-92dbf2aeee65] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:12:21][6514222b-109e-4dab-ade0-92dbf2aeee65] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:12:21][6274ba1c-8ace-4638-80f3-29d16e4b8fdd] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:12:23][6274ba1c-8ace-4638-80f3-29d16e4b8fdd] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:12:23][09c57d3e-0abc-4071-b518-b9d67a367c6d] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:12:23][09c57d3e-0abc-4071-b518-b9d67a367c6d] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:12:23][afccfdf6-f980-484f-aec8-13188f62f9f8] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:12:23][afccfdf6-f980-484f-aec8-13188f62f9f8] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:12:23][394c4ecb-ea08-4590-8019-3517645d7102] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:12:24][394c4ecb-ea08-4590-8019-3517645d7102] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:12:24][668588ce-cc99-4135-9ca7-96f86c2545d2] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:12:25][668588ce-cc99-4135-9ca7-96f86c2545d2] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:12:25][3c8552db-3c67-41cb-9d57-fe74b6a78794] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:12:26][3c8552db-3c67-41cb-9d57-fe74b6a78794] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:12:26][7dea735a-7d0c-4790-af23-60f1ce297f0f] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:12:29][7dea735a-7d0c-4790-af23-60f1ce297f0f] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:12:29][f9a7967c-8c85-492b-9c12-d569d1a1ef67] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:13:29][f9a7967c-8c85-492b-9c12-d569d1a1ef67] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:13:31][f093dcee-e96b-4a6e-87c0-89649a2a181d] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:13:34][f093dcee-e96b-4a6e-87c0-89649a2a181d] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:13:34][bbb4102a-b250-499f-8ade-a4e9dabe9fb8] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:34][bbb4102a-b250-499f-8ade-a4e9dabe9fb8] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:35][6e5a88fe-692c-4d28-8777-4894cf5e1051] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:36][6e5a88fe-692c-4d28-8777-4894cf5e1051] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:36][f14767ab-a5c3-4530-b181-ff05e95b97d8] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:36][f14767ab-a5c3-4530-b181-ff05e95b97d8] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:36][309f6354-0eca-40d4-9a60-d2c4f4270f9b] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:37][309f6354-0eca-40d4-9a60-d2c4f4270f9b] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:37][30c44cc2-8c68-4916-a57f-27367d05f9a0] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:37][30c44cc2-8c68-4916-a57f-27367d05f9a0] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:37][1bedea5b-93c6-48b4-92e9-b12301980891] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:37][1bedea5b-93c6-48b4-92e9-b12301980891] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:37][981b18c4-c8be-4c7b-942e-0e9989b76e44] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:38][981b18c4-c8be-4c7b-942e-0e9989b76e44] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:38][1bea8886-8410-4dcd-b8fa-1dd8995e67cf] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:39][1bea8886-8410-4dcd-b8fa-1dd8995e67cf] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:39][2ed914a8-b11f-4009-b149-c2d105fb4184] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:39][2ed914a8-b11f-4009-b149-c2d105fb4184] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:39][fbe6844b-a087-4a3a-aaa1-e2eb140e2a85] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:39][fbe6844b-a087-4a3a-aaa1-e2eb140e2a85] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:39][21ff0969-5424-49b1-b99b-85c8a112af65] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:40][21ff0969-5424-49b1-b99b-85c8a112af65] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:40][66e2dd37-6b5b-443c-a178-3e499505da32] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:40][66e2dd37-6b5b-443c-a178-3e499505da32] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:40][f0967f62-7ef5-49f6-a939-1ec9639ba995] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:41][f0967f62-7ef5-49f6-a939-1ec9639ba995] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:41][8f7dbad2-5634-4ee6-824b-26497f63f4e0] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:42][8f7dbad2-5634-4ee6-824b-26497f63f4e0] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:42][114498bf-1f34-4ccf-9720-c3d37f3ac0f4] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:42][114498bf-1f34-4ccf-9720-c3d37f3ac0f4] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:42][2d87ac47-5f6a-4e56-9bbd-cb976326aaa2] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:43][2d87ac47-5f6a-4e56-9bbd-cb976326aaa2] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:43][8621598c-417b-41fb-a217-eab83f79b019] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:43][8621598c-417b-41fb-a217-eab83f79b019] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:43][4d9fa4d0-9d94-4169-bb43-fa5ec0c1d9c1] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:47][4d9fa4d0-9d94-4169-bb43-fa5ec0c1d9c1] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:47][a17774cd-a5da-482c-a441-6ce79d60d738] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:47][a17774cd-a5da-482c-a441-6ce79d60d738] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:47][e3e8034a-1ac1-47f9-92d0-1f1f913b6daa] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:47][e3e8034a-1ac1-47f9-92d0-1f1f913b6daa] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:47][6cf52eb8-72a1-472d-81a0-2dc60c7aaf9c] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:48][6cf52eb8-72a1-472d-81a0-2dc60c7aaf9c] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:48][8a721a37-aaf1-4453-a243-01adfc5b2cca] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:48][8a721a37-aaf1-4453-a243-01adfc5b2cca] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:48][0607e722-d0c7-4472-b375-c906bb205a2e] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:51][0607e722-d0c7-4472-b375-c906bb205a2e] Processed:  App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:51][d6d01e44-1d14-4be6-a729-a1f991910fe6] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:51][d6d01e44-1d14-4be6-a729-a1f991910fe6] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:51][d8c3cd62-ab48-4491-8774-6d4c9ebd3a4e] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:51][d8c3cd62-ab48-4491-8774-6d4c9ebd3a4e] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:51][ecc2df23-d507-4fe2-9497-454783a58c71] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:52][ecc2df23-d507-4fe2-9497-454783a58c71] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:52][e36d3a23-9fbf-4e86-9f7d-5a9eede30283] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:52][e36d3a23-9fbf-4e86-9f7d-5a9eede30283] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:52][3f38ad05-458a-4adc-8187-1b342bf22ee3] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:53][3f38ad05-458a-4adc-8187-1b342bf22ee3] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:53][60a491b3-8d5c-4eee-bef3-0a7e430afe8d] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:54][60a491b3-8d5c-4eee-bef3-0a7e430afe8d] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:54][8ebb5fdc-e1c9-46f0-84e4-302529ea5412] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:54][8ebb5fdc-e1c9-46f0-84e4-302529ea5412] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:54][cfacfc6f-6820-4c46-bcf1-83dbe80cddc3] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:54][cfacfc6f-6820-4c46-bcf1-83dbe80cddc3] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:54][6dd0f6a2-e806-4070-9451-63040cd48d3a] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:55][6dd0f6a2-e806-4070-9451-63040cd48d3a] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:55][10a43377-bab7-42d1-9dce-d6f8bb8e4fda] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:55][10a43377-bab7-42d1-9dce-d6f8bb8e4fda] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:55][439e2029-73d1-47a3-ba4c-76e3779df35d] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:56][439e2029-73d1-47a3-ba4c-76e3779df35d] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:56][d8de544f-c2db-4111-b987-cb3581d1649d] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:57][d8de544f-c2db-4111-b987-cb3581d1649d] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:57][5453ccc2-d4c2-4992-a167-9aa98f51db09] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:57][5453ccc2-d4c2-4992-a167-9aa98f51db09] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:57][91d85fc4-0fba-4edc-815d-d2b4d76549b6] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:57][91d85fc4-0fba-4edc-815d-d2b4d76549b6] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:57][405c979d-1903-44f2-9d22-0dfb8daa8803] Processing: App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:58][405c979d-1903-44f2-9d22-0dfb8daa8803] Failed:     App\Jobs\UrlExamQuestionsJob
+[2021-05-14 08:14:58][bbca14bd-6c09-4742-851b-c9ca2d2ef203] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:15:58][bbca14bd-6c09-4742-851b-c9ca2d2ef203] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 08:16:00][12f8ddeb-ca9f-415c-9d5a-a6f3f00b25b2] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:17:01][12f8ddeb-ca9f-415c-9d5a-a6f3f00b25b2] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 08:17:01][b82c0327-2414-4b60-9752-aa72821fe4b8] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:18:01][b82c0327-2414-4b60-9752-aa72821fe4b8] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 08:18:02][4e9ea94b-9eb6-4d6b-a1f3-5e4ff7956d3a] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:19:02][4e9ea94b-9eb6-4d6b-a1f3-5e4ff7956d3a] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 08:19:04][d3a5dd2e-e568-4609-9458-59d448f7382e] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:20:04][d3a5dd2e-e568-4609-9458-59d448f7382e] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 08:20:04][cd36c734-9d65-4146-b849-f0f8efe9b7bd] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:21:04][cd36c734-9d65-4146-b849-f0f8efe9b7bd] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 08:21:05][e86d3ae7-d361-4005-84c9-9b9ae079a3da] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:22:05][e86d3ae7-d361-4005-84c9-9b9ae079a3da] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 08:22:06][5dc3244a-57d7-4117-9a37-d73184f19f8d] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:23:06][5dc3244a-57d7-4117-9a37-d73184f19f8d] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 08:23:07][f15ccd86-6104-4357-80d8-d7ca9b7e0c30] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:24:08][f15ccd86-6104-4357-80d8-d7ca9b7e0c30] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 08:24:09][59daa1e2-03fe-4beb-8dd5-032b74a469db] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:25:09][59daa1e2-03fe-4beb-8dd5-032b74a469db] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 08:25:10][799f5c40-be6e-4e04-baec-6577bd645912] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:26:10][799f5c40-be6e-4e04-baec-6577bd645912] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 08:26:12][4b29b337-8e22-4afa-aa94-eeeb5bcfe40b] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:27:12][4b29b337-8e22-4afa-aa94-eeeb5bcfe40b] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 08:27:13][4b5be312-f123-4e3f-9c1c-80b6fc4859f3] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:28:13][4b5be312-f123-4e3f-9c1c-80b6fc4859f3] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 08:28:15][45c3da49-d830-448e-800d-9840a2d6919d] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:29:15][45c3da49-d830-448e-800d-9840a2d6919d] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 08:29:16][d88744f4-d22f-4983-8dc1-bb15391dbbd6] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:30:16][d88744f4-d22f-4983-8dc1-bb15391dbbd6] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 08:30:17][dca3778e-8cbe-4496-bf32-60e8d1e3fa0f] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:31:17][dca3778e-8cbe-4496-bf32-60e8d1e3fa0f] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 08:31:19][d70cdae7-1670-4479-9f88-b268ade13292] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:32:19][d70cdae7-1670-4479-9f88-b268ade13292] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 08:32:19][e3901fe8-5ffd-444d-bb54-07caba9ed906] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:33:19][e3901fe8-5ffd-444d-bb54-07caba9ed906] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 08:33:21][6dbe9051-212a-48bd-8ee9-e75e0281c7b4] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:34:21][6dbe9051-212a-48bd-8ee9-e75e0281c7b4] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 08:34:22][c66a5547-7347-4aec-b694-17234a8d3e9d] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:35:22][c66a5547-7347-4aec-b694-17234a8d3e9d] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 08:35:24][a57e1e61-3cdc-4cf0-a997-c58bbdad0f96] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:36:25][a57e1e61-3cdc-4cf0-a997-c58bbdad0f96] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 08:36:26][8965ebca-d125-4ee2-8e89-c3801d38b1aa] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:37:26][8965ebca-d125-4ee2-8e89-c3801d38b1aa] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 08:37:28][0ccabb06-3ca0-40d7-8cb8-011253a3fbdc] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:38:29][0ccabb06-3ca0-40d7-8cb8-011253a3fbdc] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 08:38:30][71ba419f-d1eb-4e22-b0ca-b95ac2f4636e] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:39:30][71ba419f-d1eb-4e22-b0ca-b95ac2f4636e] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 08:39:32][05e77d23-d7df-466a-a99d-155ba17ea330] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:40:33][05e77d23-d7df-466a-a99d-155ba17ea330] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 08:40:34][744fa7f9-53cd-4508-a2f7-422c994f8013] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:41:34][744fa7f9-53cd-4508-a2f7-422c994f8013] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 08:41:35][e2d68901-cffb-4236-b692-6cc7636eed8f] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:42:36][e2d68901-cffb-4236-b692-6cc7636eed8f] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 08:42:37][0858c14e-1c3b-4a27-ac0e-ca47ea1ccea9] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:43:37][0858c14e-1c3b-4a27-ac0e-ca47ea1ccea9] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 08:43:39][6cebe87e-09c8-466e-b680-0bcbb6c56e4a] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:44:39][6cebe87e-09c8-466e-b680-0bcbb6c56e4a] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 08:44:40][3d820124-0209-4c76-b601-2689e7f7baf6] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:45:40][3d820124-0209-4c76-b601-2689e7f7baf6] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 08:45:42][18cab53c-735c-4ea6-a4e0-43e2a03d4d97] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:46:42][18cab53c-735c-4ea6-a4e0-43e2a03d4d97] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 08:46:43][ef64efd4-cb46-4df4-bc5e-6a62c158eb77] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:47:43][ef64efd4-cb46-4df4-bc5e-6a62c158eb77] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 08:47:45][5bf596e5-b31a-4abc-a32e-890ad0ac53e4] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:48:45][5bf596e5-b31a-4abc-a32e-890ad0ac53e4] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 08:48:45][7d327285-9cef-479c-b080-0709163a3690] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:49:46][7d327285-9cef-479c-b080-0709163a3690] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 08:49:46][b10cb625-1247-49bb-a250-1b21751b2b14] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:50:46][b10cb625-1247-49bb-a250-1b21751b2b14] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 08:50:48][662a2841-f7cd-4c86-b0f1-4077eece6344] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:51:48][662a2841-f7cd-4c86-b0f1-4077eece6344] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 08:51:49][d327eb08-4293-407b-86ba-a04f54832bb8] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:52:49][d327eb08-4293-407b-86ba-a04f54832bb8] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 08:52:50][37079c64-0d72-49f1-a30e-b17310ecc730] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:53:50][37079c64-0d72-49f1-a30e-b17310ecc730] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 08:53:52][73b5caad-3dff-4cd8-9219-53a238a26ec1] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:54:52][73b5caad-3dff-4cd8-9219-53a238a26ec1] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 08:54:55][e93a6f7c-ffcb-4be9-99ae-1d1f1b4393f5] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:55:55][e93a6f7c-ffcb-4be9-99ae-1d1f1b4393f5] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 08:57:02][906fb885-7b83-4e9a-bd6d-89fa7d678b1e] Processing: App\Jobs\CrawlingJob
+[2021-05-14 08:58:02][906fb885-7b83-4e9a-bd6d-89fa7d678b1e] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 09:00:01][1dafcfb4-1d87-4722-84ea-b5fabb9b3592] Processing: App\Jobs\CrawlingJob
+[2021-05-14 09:01:01][1dafcfb4-1d87-4722-84ea-b5fabb9b3592] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 09:03:02][613a545f-e92c-4b6b-8382-ac495ffa5ff5] Processing: App\Jobs\CrawlingJob
+[2021-05-14 09:04:03][613a545f-e92c-4b6b-8382-ac495ffa5ff5] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 09:06:02][2a1702ca-e32f-46ee-b64c-c9f75628f40c] Processing: App\Jobs\CrawlingJob
+[2021-05-14 09:07:02][2a1702ca-e32f-46ee-b64c-c9f75628f40c] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 09:09:00][2458c705-b9a9-431f-b1c6-acd1d2570dbe] Processing: App\Jobs\CrawlingJob
+[2021-05-14 09:10:01][2458c705-b9a9-431f-b1c6-acd1d2570dbe] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 09:12:03][72494564-3f2a-455e-b80b-66fd84b52a2b] Processing: App\Jobs\CrawlingJob
+[2021-05-14 09:13:03][72494564-3f2a-455e-b80b-66fd84b52a2b] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 09:18:02][13eccd74-ead4-421a-a2b2-b840b29d64a7] Processing: App\Jobs\CrawlingJob
+[2021-05-14 09:19:02][13eccd74-ead4-421a-a2b2-b840b29d64a7] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 09:21:01][fc967c18-127b-49c4-b0b5-01da1a634623] Processing: App\Jobs\CrawlingJob
+[2021-05-14 09:22:01][fc967c18-127b-49c4-b0b5-01da1a634623] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 09:24:03][7367c1a1-9304-4cba-95d1-ecabb08e8ba3] Processing: App\Jobs\CrawlingJob
+[2021-05-14 09:25:03][7367c1a1-9304-4cba-95d1-ecabb08e8ba3] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 09:27:02][004bb99c-6303-44be-bbc1-e585400723bb] Processing: App\Jobs\CrawlingJob
+[2021-05-14 09:28:02][004bb99c-6303-44be-bbc1-e585400723bb] Failed:     App\Jobs\CrawlingJob
+[2021-05-14 09:30:00][de26a7ed-e871-4e9a-b2fd-1cacab61f907] Processing: App\Jobs\CrawlingJob
+[2021-05-14 09:31:01][de26a7ed-e871-4e9a-b2fd-1cacab61f907] Failed:     App\Jobs\CrawlingJob

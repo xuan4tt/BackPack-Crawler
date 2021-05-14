@@ -33,7 +33,7 @@ class QuestionCrudController extends CrudController
         CRUD::setModel(\App\Models\Question::class);
         CRUD::setRoute(config('backpack.base.route_prefix') . '/question');
         CRUD::setEntityNameStrings('question', 'questions');
-        $this->crud->enableDetailsRow();
+        CRUD::enableDetailsRow();
     }
 
     /**
@@ -45,20 +45,6 @@ class QuestionCrudController extends CrudController
     protected function setupListOperation()
     {
         // CRUD::setFromDb(); // columns
-        // simple filter
-        // add a "simple" filter called Draft
-        $this->crud->addFilter(
-            [
-                'type'  => 'text',
-                'name'  => 'draft',
-                'label' => 'Draft'
-            ],
-            false, // the simple filter has no values, just the "Draft" label specified above
-            function () { // if the filter is active (the GET parameter "draft" exits)
-                //$this->crud->addClause('where', 'draft', '1');
-            }
-        );
-        // select2 filter Class
         $this->crud->addFilter([
             'name'  => 'class_id',
             'type'  => 'select2',
@@ -158,23 +144,16 @@ class QuestionCrudController extends CrudController
     }
 
     protected function showDetailsRow($id)
-    {
-        $x = Question::search('KHoa học')
-            ->rule(function ($builder) {
-                return [
-                    "mappings" => [
-                        "products"  => [
-                            "properties" => [
-                                "productID" => [
-                                    "type" => "string",
-                                    "index" => "not_analyzed"
-                                ]
-                            ]
-                        ]
-                    ]
-
-                ];
-            })
-            ->get();
+    {   
+        $question = Question::find($id);
+        $name_exam_question = $question->QuestionUrl_exam_question->name;
+        $link_exam_question = $question->QuestionUrl_exam_question->link;
+        $answers = $question->answers;
+        return view('showQuestionDetail', compact(
+            'question', 
+            'name_exam_question', 
+            'link_exam_question',
+            'answers'
+        ));
     }
 }

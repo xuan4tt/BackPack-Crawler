@@ -2,13 +2,15 @@
 
 namespace App\Models;
 
+use App\AnswerConfigurator;
 use Backpack\CRUD\app\Models\Traits\CrudTrait;
 use Illuminate\Database\Eloquent\Model;
-use Laravel\Scout\Searchable;
+use ScoutElastic\Searchable;
 
 class Answer extends Model
 {
     use CrudTrait;
+    use Searchable;
 
     /*
     |--------------------------------------------------------------------------
@@ -23,13 +25,37 @@ class Answer extends Model
     // protected $fillable = [];
     // protected $hidden = [];
     // protected $dates = [];
-
+    protected $indexConfigurator = AnswerConfigurator::class;
+    protected $mapping = [
+        'properties' => [
+            'question_id' => [
+                'type' => 'text',
+                'fields' => [
+                    'raw' => [
+                        'type' => 'keyword',
+                    ]
+                ]
+            ],
+            'content' => [
+                'type' => 'text',
+                'fields' => [
+                    'raw' => [
+                        'type' => 'keyword',
+                    ]
+                ]
+            ]
+        ]
+    ];
     /*
     |--------------------------------------------------------------------------
     | FUNCTIONS
     |--------------------------------------------------------------------------
     */
-    
+    public function toSearchableArray()
+    {
+        $array = $this->toArray();
+        return $array;
+    }
     /*
     |--------------------------------------------------------------------------
     | RELATIONS

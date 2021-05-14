@@ -2,13 +2,15 @@
 
 namespace App\Models;
 
-use App\QuestionConfigurator;
+use App\Url_exam_questionConfigurator;
 use Backpack\CRUD\app\Models\Traits\CrudTrait;
 use Illuminate\Database\Eloquent\Model;
+use ScoutElastic\Searchable;
+
 class Url_exam_question extends Model
 {
     use CrudTrait;
-
+    use Searchable;
     /*
     |--------------------------------------------------------------------------
     | GLOBAL VARIABLES
@@ -22,12 +24,30 @@ class Url_exam_question extends Model
     // protected $fillable = [];
     // protected $hidden = [];
     // protected $dates = [];
+    protected $indexConfigurator = Url_exam_questionConfigurator::class;
 
-    /*
-    |--------------------------------------------------------------------------
-    | FUNCTIONS
-    |--------------------------------------------------------------------------
-    */
+    protected $searchRules = [
+        //
+    ];
+    
+    protected $mapping = [
+        'properties' => [
+            'name' => [
+                'type' => 'text',
+                'fields' => [
+                    'raw' => [
+                        'type' => 'keyword',
+                    ]
+                ]
+            ]
+        ]
+    ];
+
+    public function toSearchableArray()
+    {
+        $array = $this->toArray();
+        return $array;
+    }
     
     /*
     |--------------------------------------------------------------------------

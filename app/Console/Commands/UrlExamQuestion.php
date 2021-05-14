@@ -8,6 +8,7 @@ use App\Services\UrlExamService;
 use Goutte\Client;
 use Symfony\Component\DomCrawler\Crawler;
 use Illuminate\Console\Command;
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Redis;
 
 class UrlExamQuestion extends Command
@@ -65,6 +66,9 @@ class UrlExamQuestion extends Command
                             $this->UrlExamService->LinkCrawl($url_page, $category_id, $class_id);
                         }
                     });
+                    Artisan::call('scout:import',[
+                        "model" => "\App\\Models\\Url_exam_question"
+                    ]);
                 }
             }
         });

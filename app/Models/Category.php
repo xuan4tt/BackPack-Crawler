@@ -2,9 +2,10 @@
 
 namespace App\Models;
 
+use App\CategoryConfigurator;
 use Backpack\CRUD\app\Models\Traits\CrudTrait;
 use Illuminate\Database\Eloquent\Model;
-use Laravel\Scout\Searchable;
+use ScoutElastic\Searchable;
 
 class Category extends Model
 {
@@ -24,20 +25,23 @@ class Category extends Model
     // protected $fillable = [];
     // protected $hidden = [];
     // protected $dates = [];
-
-    /*
-    |--------------------------------------------------------------------------
-    | FUNCTIONS
-    |--------------------------------------------------------------------------
-    */
-    protected $indexConfigurator = QuestionConfigurator::class;
+    protected $indexConfigurator = CategoryConfigurator::class;
 
     protected $searchRules = [
         //
     ];
+
     protected $mapping = [
         'properties' => [
-            'link' => [
+            'name' => [
+                'type' => 'text',
+                'fields' => [
+                    'raw' => [
+                        'type' => 'keyword',
+                    ]
+                ]
+            ],
+            'type' => [
                 'type' => 'text',
                 'fields' => [
                     'raw' => [
@@ -47,6 +51,12 @@ class Category extends Model
             ]
         ]
     ];
+
+    public function toSearchableArray()
+    {
+        $array = $this->toArray();
+        return $array;
+    }
     /*
     |--------------------------------------------------------------------------
     | RELATIONS
@@ -70,11 +80,13 @@ class Category extends Model
     | MUTATORS
     |--------------------------------------------------------------------------
     */
-    public function CategoryCrawling(){
+    public function CategoryCrawling()
+    {
         return $this->hasMany(Crawling::class, 'category_id', 'id');
     }
 
-    public function CategoryQuestion(){
+    public function CategoryQuestion()
+    {
         return $this->hasMany(Question::class, 'category_id', 'id');
     }
 }

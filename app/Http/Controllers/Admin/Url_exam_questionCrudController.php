@@ -2,9 +2,8 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\Http\Requests\Url_exam_questionRequest;
-use App\Jobs\CrawlingJob;
-use App\Models\Url_exam_question;
+use App\Models\Category;
+use App\Models\Class_rom;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;
 
@@ -30,7 +29,7 @@ class Url_exam_questionCrudController extends CrudController
     {
         CRUD::setModel(\App\Models\Url_exam_question::class);
         CRUD::setRoute(config('backpack.base.route_prefix') . '/url_exam_question');
-        CRUD::setEntityNameStrings('url_exam_question', 'url_exam_questions');
+        CRUD::setEntityNameStrings('url_exam_question', 'url_exam_questions');  
     }
 
     /**
@@ -41,8 +40,91 @@ class Url_exam_questionCrudController extends CrudController
      */
     protected function setupListOperation()
     {
-        CRUD::setFromDb(); // columns
+        // CRUD::setFromDb(); // columns
 
+        CRUD::addFilter([
+            'name'  => 'class_id',
+            'type'  => 'select2',
+            'label' => 'Class'
+        ], function () {
+            $class_rom = Class_rom::all();
+            $array_class_rom = [];
+            foreach ($class_rom as $value) {
+                $array_class_rom[$value->id] = $value->name;
+            }
+            return $array_class_rom;
+        }, function ($value) {
+            CRUD::addClause('where', 'class_id', $value);
+        });
+
+        CRUD::addFilter([
+            'name'  => 'category_id',
+            'type'  => 'select2',
+            'label' => 'Suject'
+        ], function () {
+            $category = Category::all();
+            $array_category = [];
+            foreach ($category as $value) {
+                $array_category[$value->id] = $value->name;
+            }
+            return $array_category;
+        }, function ($value) {
+            CRUD::addClause('where', 'category_id', $value);
+        });
+
+        CRUD::addFilter([
+            'name'  => 'status',
+            'type'  => 'select2',
+            'label' => 'Status'
+        ], function () {
+            $status = [
+                '0' => 'have not crawl',
+                '1' => 'crawl sucsses'
+            ];
+            return $status;
+        }, function ($value) {
+            CRUD::addClause('where', 'status', $value);
+        });
+
+        CRUD::addColumn([
+            'label' => 'Id',
+            'type' => 'text',
+            'name' => 'id'
+        ]);
+
+        CRUD::addColumn([
+            'label' => 'Class',
+            'type' => 'relationship',
+            'name' => 'class_rom',
+            'entity' => 'class_rom',
+            'attribute' => 'name',
+            'model' => Class_rom::class
+        ]);
+
+        CRUD::addColumn([
+            'label' => 'Category',
+            'type' => 'relationship',
+            'name' => 'category',
+            'entity' => 'category',
+            'attribute' => 'name',
+            'model' => Category::class
+        ]);
+
+        CRUD::addColumn([
+            'label' => 'Link',
+            'type' => 'text',
+            'name' => 'link'
+        ]);
+
+        CRUD::addColumn(
+            [
+                // select_from_array
+                'name'    => 'status',
+                'label'   => 'Status',
+                'type'    => 'select_from_array',
+                'options' => ['0' => 'have not crawl', '1' => 'crawl sucsses'],
+            ],
+        );
         /**
          * Columns can be defined using the fluent syntax or array syntax:
          * - CRUD::column('price')->type('number');
@@ -80,11 +162,4 @@ class Url_exam_questionCrudController extends CrudController
         $this->setupCreateOperation();
     }
     
-    protected function store(){
-        if (Url_exam_question::where('status', 0)->count() > 0) {
-            $link =  Url_exam_question::where('status', 0)->orderBy('class_id', 'ASC')->first();
-            $url_exam_question = Url_exam_question::where('link', $link->link)->first();
-            CrawlingJob::dispatch($link->link, $link->category_id, $link->class_id, $url_exam_question->id);
-        }
-    }
 }

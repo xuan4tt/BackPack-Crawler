@@ -10,7 +10,7 @@
     <form action="{{ route('check') }}" method="POST">
         @csrf
         <input type="text" name="search">
-        <button type="submit">Submit</button>
+        <button type="submit">Search</button>
     </form>
 </body>
 </html>

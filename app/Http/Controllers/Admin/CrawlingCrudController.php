@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Requests\CrawlingRequest;
 
 use App\Jobs\AddCategoryClassJob;
+use App\Jobs\CategoryJob;
 use App\Jobs\CrawlingJob;
 use App\Jobs\CrawlingJob2;
 use App\Jobs\UrlExamQuestionsJob;
@@ -222,7 +223,7 @@ class CrawlingCrudController extends CrudController
                         $Class_rom->url = $url;
                         $Class_rom->save();
                     }
-                    AddCategoryClassJob::dispatch($url);
+                    CategoryJob::dispatch($url);
                 }
             );
         }

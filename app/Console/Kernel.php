@@ -26,7 +26,7 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule)
     {
         //$schedule->command('inspire')->hourly();
-        $schedule->command('vietjack:task-crawl')->everyMinute();
+        $schedule->command('vietjack:task-crawl')->everyThreeMinutes();
         //$schedule->command('vietjack:task-crawl')->everyTenMinutes();
     }
 

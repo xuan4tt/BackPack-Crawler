@@ -2,7 +2,6 @@
 
 namespace App\Jobs;
 
-
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldBeUnique;
 use Illuminate\Contracts\Queue\ShouldQueue;
@@ -10,21 +9,19 @@ use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Facades\Artisan;
-use Illuminate\Support\Facades\Log;
 
-class AddCategoryClassJob implements ShouldQueue
+class ClassJob implements ShouldQueue
 {
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
 
-    protected $url;
     /**
      * Create a new job instance.
      *
      * @return void
      */
-    public function __construct($url)
+    public function __construct()
     {
-        $this->url = $url;
+        //
     }
 
     /**
@@ -34,8 +31,6 @@ class AddCategoryClassJob implements ShouldQueue
      */
     public function handle()
     {
-        $url = $this->url;
-        Log::info("AddCategoryClassJob start");
-        Artisan::call('vietjack:add-category-class', ['url'=>$url]);
+        Artisan::call('vietjack:add-class');
     }
 }

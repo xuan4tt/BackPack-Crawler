@@ -23,13 +23,14 @@ class UrlExamService
                 $crawler = $client->request('GET', $link);
                 if ($crawler->filter('div.qas > div.quiz-answer-item')->count() > 0) {
                     $name =  $node->filter('a.url-root')->text();
-
-                    $url_exam_question = new Url_exam_question();
-                    $url_exam_question->class_id = $class_id;
-                    $url_exam_question->category_id = $category_id;
-                    $url_exam_question->name = $name;
-                    $url_exam_question->link = $link;
-                    $url_exam_question->save();
+                    if (Url_exam_question::where('link', $link)->count() == 0) {
+                        $url_exam_question = new Url_exam_question();
+                        $url_exam_question->class_id = $class_id;
+                        $url_exam_question->category_id = $category_id;
+                        $url_exam_question->name = $name;
+                        $url_exam_question->link = $link;
+                        $url_exam_question->save();
+                    }
                 }
             });
         }
@@ -43,8 +44,9 @@ class UrlExamService
             //Crawl data
             $crawler->filter('div.qas > div.quiz-answer-item')->each(
                 function (Crawler $node) use (&$category_id, &$class_id, &$url_exam_question_id, &$link) {
+
                     // Question
-                    $question_content = $node->filter('a.question')->html();
+                    $question_content = $node->filter('a.question > p')->eq(1)->html();
                     $question_correct_answer = $node->filter('div.reason')->html();
                     // Create data to table Question in DB
                     $Question = new Question();
@@ -55,10 +57,10 @@ class UrlExamService
                     $Question->correct_answer = $question_correct_answer;
                     $Question->link = $link;
                     $Question->save();
+                    $question_id = $Question->id;
 
                     // Answer
-                    $node->filter('div.answer-check > label')->each(function (Crawler $node2) {
-                        $question_id = Question::orderByDesc('id')->first()->id;
+                    $node->filter('div.answer-check > label')->each(function (Crawler $node2) use (&$question_id) {
                         $answer_content = $node2->filter('p')->html();
                         // Create data to table Answer
                         $Answer = new Answer();
@@ -82,7 +84,7 @@ class UrlExamService
                 function (Crawler $node) use (&$url_arr) {
                     $node_url = $node->filter('a')->attr('href');
                     $client = new Client();
-                    $crawler = $client->request('GET', $node->url);
+                    $crawler = $client->request('GET', $node_url);
                     if ($crawler->filter('div.qas > div.quiz-answer-item')->count() !== 0) {
                         array_push($url_arr, $node_url);
                     }

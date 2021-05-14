@@ -2,13 +2,15 @@
 
 namespace App\Models;
 
+use App\Class_romConfigurator;
 use Backpack\CRUD\app\Models\Traits\CrudTrait;
 use Illuminate\Database\Eloquent\Model;
-use Laravel\Scout\Searchable;
+use ScoutElastic\Searchable;
 
 class Class_rom extends Model
 {
     use CrudTrait;
+    use Searchable;
 
     /*
     |--------------------------------------------------------------------------
@@ -24,11 +26,38 @@ class Class_rom extends Model
     // protected $hidden = [];
     // protected $dates = [];
 
-    /*
-    |--------------------------------------------------------------------------
-    | FUNCTIONS
-    |--------------------------------------------------------------------------
-    */
+    protected $indexConfigurator = Class_romConfigurator::class;
+
+    protected $searchRules = [
+        //
+    ];
+
+    protected $mapping = [
+        'properties' => [
+            'name' => [
+                'type' => 'text',
+                'fields' => [
+                    'raw' => [
+                        'type' => 'keyword',
+                    ]
+                ]
+            ],
+            'url' => [
+                'type' => 'text',
+                'fields' => [
+                    'raw' => [
+                        'type' => 'keyword',
+                    ]
+                ]
+            ]
+        ]
+    ];
+
+    public function toSearchableArray()
+    {
+        $array = $this->toArray();
+        return $array;
+    }
     /*
     |--------------------------------------------------------------------------
     | RELATIONS
@@ -53,11 +82,13 @@ class Class_rom extends Model
     |--------------------------------------------------------------------------
     */
 
-    public function Class_romCrawling(){
+    public function Class_romCrawling()
+    {
         return $this->belongsTo(Crawling::class, 'crawling_id', 'id');
     }
 
-    public function Class_romQuestion(){
+    public function Class_romQuestion()
+    {
         return $this->belongsTo(Question::class, 'class_id', 'id');
     }
 }

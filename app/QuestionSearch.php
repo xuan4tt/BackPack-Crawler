@@ -25,25 +25,20 @@ class QuestionSearch extends SearchRule
      */
     public function buildQueryPayload()
     {
-        return [
-            'must' => [
-                'function_score' => [
-                    'query' => [
-                        'multi_match' => [
-                            'query' => $this->builder->query,
-                            'fields' => ['content']
-                        ], 
-                        // 'function_score' => [
-                        //     'query' => $this->builder->query,
-                        //     'boost' => '5',
-                        //     'random_score' => [],
-                        //     'boost_mode' => 
-                        // ]
-                    ],
-                    'min_score' => 1,
-                    
-                ]
-            ]
-        ];
+        // return [
+        //     'must' => [
+        //         'function_score' => [
+        //             'query' => [
+        //                 'multi_match' => [
+        //                     'query' => $this->builder->query,
+        //                     'fields' => ['content'],
+        //                 ]
+        //             ],
+        //             'min_score' => 1,
+        //         ]
+        //     ],
+        // ];
+        
+        
     }
 }

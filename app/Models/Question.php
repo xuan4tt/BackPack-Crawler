@@ -5,8 +5,10 @@ namespace App\Models;
 use App\QuestionConfigurator;
 use App\QuestionSearch;
 use Backpack\CRUD\app\Models\Traits\CrudTrait;
-use ScoutElastic\Searchable;
+
+
 use Illuminate\Database\Eloquent\Model;
+use ScoutElastic\Searchable;
 
 class Question extends Model
 {
@@ -48,7 +50,7 @@ class Question extends Model
     {
         $array = $this->toArray();
 
-        // Customize array...
+        $array['something'] = $this->something;
 
         return $array;
     }
@@ -95,5 +97,9 @@ class Question extends Model
     public function QuestionUrl_exam_question()
     {
         return $this->belongsTo(Url_exam_question::class, 'url_exam_question_id', 'id');
+    }
+
+    public function answers(){
+        return $this->hasMany(Answer::class, 'question_id', 'id');
     }
 }

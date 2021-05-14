@@ -11,13 +11,28 @@ class SearchController extends Controller
 {
     public function index()
     {
-        return view(backpack_view('search'));
+        return view('search');
     }
     public function getdata(Request $request)
     {
         $search = $request->all()['search'];
-        $data = Question::search($search)
-            ->rule(QuestionSearch::class)->explain();
+        $data = Question::searchRaw
+        ([
+            "query" => [
+                "match" => ["content" => $search]
+            ],
+            "size" => 1,
+            "highlight" => [
+                "fields" => [
+                    "content" => [
+                        "pre_tags" => ["<span style='background-color:#ffbf00;color:#fff;'><b>"],
+                        "post_tags" => ["</b></span>"],
+                        "number_of_fragments" => 0
+                        //"boundary_max_scan" => 10
+                    ]
+                ]
+            ]
+        ]);
         $data_search = $data['hits']['hits'];
         return $data_search;
     }
