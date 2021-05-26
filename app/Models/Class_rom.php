@@ -91,4 +91,9 @@ class Class_rom extends Model
     {
         return $this->belongsTo(Question::class, 'class_id', 'id');
     }
+
+    public function urlExams()
+    {
+        return $this->hasMany(Url_exam_question::class, 'class_id', 'id');
+    }
 }

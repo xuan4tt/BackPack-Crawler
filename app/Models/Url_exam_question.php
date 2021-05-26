@@ -66,7 +66,7 @@ class Url_exam_question extends Model
 
     public function questions()
     {
-        return $this->hasMany(Question::class, 'question_id', 'id');
+        return $this->hasMany(Question::class, 'url_exam_question_id', 'id');
     }
     /*
     |--------------------------------------------------------------------------

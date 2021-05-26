@@ -10,9 +10,21 @@
         "production": "mix --production"
     },
     "devDependencies": {
+        "autoprefixer": "^10.2.5",
         "axios": "^0.21",
+        "laravel-echo": "^1.10.0",
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.19",
-        "postcss": "^8.1.14"
+        "postcss": "^8.2.15",
+        "pusher-js": "^7.0.3",
+        "tailwindcss": "^2.1.2",
+        "tailwindcss-plugins": "^0.3.0"
+    },
+    "dependencies": {
+        "dotenv": "^10.0.0",
+        "laravel-echo-server": "^1.6.2",
+        "redis": "^3.1.2",
+        "socket.io": "^4.1.2",
+        "socket.io-client": "^4.1.2"
     }
 }

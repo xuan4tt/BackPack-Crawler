@@ -1,16 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <form action="{{ route('check') }}" method="POST">
-        @csrf
-        <input type="text" name="search">
-        <button type="submit">Search</button>
-    </form>
-</body>
-</html>
+@extends('layouts.main')
+@section('title', 'Test')
+@section('content')
+
+
+@endsection
+@section('script')
+    <script>
+        //console .log(window.Echo.channel('test').listen('.Test-Event'))
+        Echo.channel('laravel_database_test').listen('.Test-Event', function(data){
+            console.log(data);
+        })
+    </script>
+@endsection
